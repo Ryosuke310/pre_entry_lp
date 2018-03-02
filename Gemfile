@@ -4,9 +4,10 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', group: :development
-# 本番ではpostgressを使用する
-gem 'pg', group: :production
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3', :group => [:development, :test]
+# Use postgreSQL as the database for Active Record
+gem 'pg', :group => :production
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -29,14 +30,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
   gem 'omniauth-facebook'
   gem "figaro", "~> 1.1.0"
   
-  # group :production do
-  #   gem 'pg', '0.20.0'
-  #   gem 'rails_12factor'
-  # end
+
   
-  # group :development, :test do
-  # gem 'pg', '0.20.0'
-  # end
+
   
 
 # Use ActiveModel has_secure_password
