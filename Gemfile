@@ -59,5 +59,4 @@ group :development do
   gem 'spring'
 end
 
-gem 'sqlite3', groups: %w(test development), require: false
-gem 'pg', groups: %w(production), require: false
+
