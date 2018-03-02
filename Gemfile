@@ -28,12 +28,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
   gem "figaro", "~> 1.1.0"
   
   group :production do
-    gem 'pg'
+    gem 'pg', '0.20.0'
     gem 'rails_12factor'
   end
   
   group :development, :test do
-    gem 'sqlite3'
+   gem 'pg', '0.20.0'
   end
   
 
