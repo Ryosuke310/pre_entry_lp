@@ -1,0 +1,230 @@
+<style>
+.jumbotron {
+   height:1000px!important;
+}
+</style>    
+    
+    <!--ヘッダー-->
+    <header style="height:120px">
+        <div class="container-fluid header-fixed pt-20">
+          <div class="row">
+            <div class="col-6 pl-50">
+              <h1 style="font-size:500%">カイコク</h1>
+            </div>
+            <div class="col-6 header-bk">
+              <div class="container-fluid">
+                <div class="row" style="display: flex; align-items: center;">
+                  <div class="col-12 text-right pr-50 f-b" style="line-height: 80px;"><button type="button" class="btn btn-danger btn-lg bc-y" id="btn-header"><%= link_to "今すぐ登録", user_facebook_omniauth_authorize_path %></button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+    
+    <div class="jumbotron jumbotron-fluid pt-100 mb--24">
+        <div class="container mb-40 mt-100">
+          <h2 class="display-4 text-center c-w f-50 f-b">もったいない時間をパラレルキャリアで有効活用しよう！</h2>
+        </div>
+        <div class="container-fluid mx-auto">
+            <div class="row mx-auto">
+                <div class="col-2"></div>
+                <div class="col-8 text-center mx-auto" id="radiousbox1">
+                    <p class="c-w f-40 f-b"><span class="c-y">今だけ</span>事前登録した人から優先的に<span class="c-y">給料前払い</span>！</p>
+                    <!--<p class="c-w f-30">さらにカイコクの最新情報や、<br>サービスリリース時にいち早い<br>情報をお届けします！</p>-->
+                    <button type="button" class="btn btn-danger btn-lg bc-y" id="btn_tron"><%= link_to "今すぐ登録", user_facebook_omniauth_authorize_path %></button>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+    </div>	
+    
+    
+    <div class="container-fluid" style="margin-bottom:-120px">
+        <div class="row">
+            <div class="col-12 balloon1 text-center" style="padding:20px 10% 20px 10%">
+                    <p class="f-40 f-b">将来の選択肢を増やすために<br>今の働き方だけで<br>本当にいいですか？</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="balloon2 mb--120" style="z-index:-10;">
+        <div class="container-fluid">
+            <div class="col-12 white_contain">
+                <p class="d-inline f-38 text-cetner"><i class="fas fa-check-circle"></i>　今の職場でしかスキルアップできない</p>
+            </div>
+            <div class="col-12 white_contain mt-50">
+                <p class="d-inline f-40 text-cetner"><i class="fas fa-check-circle"></i>　今の職場のまま新たな挑戦がしたい</p>
+            </div>
+            <div class="col-12 white_contain mt-50">
+                <p class="d-inline f-40 text-cetner"><i class="fas fa-check-circle"></i>　今の自分の市場価値を知りたい！</p>
+            </div>
+            <div class="col-12 white_contain mt-50">
+                <p class="d-inline f-40 text-cetner"><i class="fas fa-check-circle"></i>　できれば収入を増やしたい！</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mb-150 mt-150">
+        <div class="row text-center">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <h3 class="f-50 f-b">カイコクでもったいない<br>時間を有効活用！</h3>
+                <h3 class="mb-30 f-35 f-b">あなたの市場価値を高める<br>パラレルキャリア*をサポート</h3>
+                <div class="radiousbox2">
+                    <p><span class="f-30 f-b">*パラレルキャリアとは？</span>
+                    <br><span class="f-25 f-b">本業を持ちながら第二のキャリアを築くこと。自分のスキルアップや夢の実現、社会貢献などが含まれる。</span></p>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+    
+
+    <div class="container-fluid mb-50">
+        <div class="row mx-auto">
+            <div class="col-12 mb-80">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-10">
+                        <img src="/image/point_1.png" class="img-fluid shadow">
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="button" class="btn btn-primary f-40" id="btn-point">Point1</button>
+                <h3 class="mt-20 line-h-60 f-50 f-b">あなたの市場価値を<br>可視化できて<br>働く前に報酬がもらえる！</h3>
+                <br>
+                <p class="f-35">あなたのスキルに合わせて、本来の市場価値を診断して可視化できます！その市場価値に合わせて働く前に報酬がもらえます。</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mb-120 bc-rb pt-100 pb-100">
+        <div class="row">
+            <div class="col-12 mb-80">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-10">
+                        <img src="/image/point_2.png" class="img-fluid">
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="button" class="btn btn-primary mb-20 f-40" id="btn-point">Point2</button>
+                <h3 class="mt-20 line-h-60 f-50 f-b">登録して待つだけであなたに<br>おすすめの案件が届く！</h3>
+                <br>
+                <p class="f-35">カイコクに登録して待つだけで、自分の条件にぴったりなおすすめの案件が届きます。手間のかかる案件検索やコンペがないので、簡単にパラレルワークを始められます。</p>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+
+    <div class="container-fluid mb-50">
+        <div class="row mx-auto">
+            <div class="col-12 mb-80">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-10">
+                        <img src="/image/point_3.png" class="img-fluid">
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="button" class="btn btn-primary f-40" id="btn-point">Point3</button>
+                <h3 class="mt-20 line-h-60 f-50 f-b">サポートが充実！<br>知識0でも簡単に始められる！</h3>
+                <br>
+                <p class="f-35">パラレルワークを始めるに当たって、税金や保険のことなど、勉強することがたくさんあります。調べてもわからないことが多いです。でもカイコクなら知識0の人でも安心して始められる、コンテンツやサポートをご用意しています。</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-100 pb-150 bc-rb ">
+        <h3 class="text-center mb-80 f-50 f-b">カイコクがめざす流れ</h3>
+        <div class="row">
+            <div class="col-12">
+                        <div class="card mx-auto pt-10" style="width: 60rem; height:1400px">
+                                    <img class="card-img-top mb-50" src="/image/graph_3.png" style="height:650px">
+                                    <div class="card-body h-250">
+                                      <button type="button" class="btn btn-primary mb-20 pr-10 pl-10 f-40">現在</button>
+                                      <h6 class="f-40 mb-50" style="font-weight:bold">一つの会社で毎日残業3時間</h6>
+                                      <div class="row">
+                                          <div class="col-6">
+                                            <p class="f-35">会社にいる時間が収入に直結してしまっているため、新しいスキルを得たり、さらに伸ばすための時間が取れない。</p>
+                                          </div>
+                                          <div class="col-6">
+                                            <img src="/image/card1.png" style="width:350px">
+                                          </div>
+                                      </div>
+                                    </div>
+                        </div>
+            </div>
+            <div class="col-12 mt-100">
+                        <div class="card mx-auto" style="width: 60rem; height:1500px">
+                                    <img class="card-img-top mb-50" src="/image/graph_2.png" style="height:650px">
+                                    <div class="card-body h-250">
+                                      <button type="button" class="btn btn-primary mb-20 pr-10 pl-10 f-40">今後</button>
+                                      <h6 class="f-40 mb-50" style="font-weight:bold">残業を削り、別のワークをする</h6>
+                                      <div class="row">
+                                          <div class="col-6">
+                                            <p class="f-35">現在の仕事でだらだらした残業を別のワークにあてることにより、収入を増やすつつ、その経験を通じてスキルを伸ばす。</p>
+                                          </div>
+                                          <div class="col-6">
+                                            <img src="/image/card2.png" style="width:350px">
+                                          </div>
+                                      </div>
+                                    </div>
+                        </div>
+            </div>
+            <div class="col-12 mt-100">
+                        <div class="card mx-auto" style="width: 60rem; height:1500px">
+                                    <img class="card-img-top mb-50" src="/image/graph_1.png" style="height:650px">
+                                    <div class="card-body h-250">
+                                      <button type="button" class="btn btn-primary mb-20 pr-10 pl-10 f-40">未来</button>
+                                      <h6 class="f-40 mb-50" style="font-weight:bold">複数の仕事をすることにより本業を効率化させ成果を出す</h6>
+                                      <div class="row">
+                                          <div class="col-6">
+                                            <p class="f-35">会社にいる時間が収入に直結してしまっているため、新しいスキルを得たり、さらに伸ばすための時間が取れない。</p>
+                                          </div>
+                                          <div class="col-6">
+                                            <img src="/image/card3.png" style="width:350px">
+                                          </div>
+                                      </div>
+                                    </div>
+                        </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+        <footer class="pt-50 pb-20 c-w bc-db">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-10 text-center mb-50 pl-30 pr-30" style="border-bottom:1px solid;">
+                                <h5 class="mb-20 f-40 mb-40">今すぐ事前登録をしよう！！</h5>
+                                <button type="button" class="btn btn-danger mb-40 bc-y" id="btn-20"><%= link_to "今すぐ登録", user_facebook_omniauth_authorize_path %></button>
+                                <p class="f-20 text-left pl-30 mb-30">登録した人から優先今だけ事前登録した人から優先的に給料前払い！<br>さらにカイコクの最新情報を受け取ることができます。</p>
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-12 text-center">
+                                <h6 class="f-25"><a href="http://blam.co.jp/contact" class="c-w"><span class="c-o">></span>　お問い合わせ</a></h6>
+                                <p class="f-20">サービスに関するお問い合わせは、上記からお願いいたします。</p>
+                                <br>
+                                <h6 class="f-25"><span class="c-o">></span>　運営会社</h6>
+                                <p class="f-20">本サービスは、株式会社BLAMが運営しております。</p>
+                    </div>
+                        <div class="row mt-40 mx-auto">
+                            <div class="col-12 text-center" style="border-top:1px solid;">
+                                <small>Copyright BLAM, Inc All Rights Reserved</small>
+                            </div>
+                        </div>
+            </div>
+                    
+                </div>
+            </div>
+
+        </footer>
