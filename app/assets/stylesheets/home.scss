@@ -1,0 +1,445 @@
+
+body{
+     padding-top: 70px; 
+    font-family: "Lucida Grande", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif!important;
+}
+
+
+header{
+    width:100%;
+    height:80px;
+    position:fixed;
+    background:white;
+    z-index:100;
+    top:0;
+    background: rgba(255,255,255,0.99);
+}
+.jumbotron { background:linear-gradient(rgba(50, 103, 180, 0.6) 80%, rgba(50, 103, 180, 0.6) 100%, rgba(50, 103, 180, 1)),url(image/img_main.jpg); background-size: cover;}
+.jumbotron {
+  height:1000px!important;
+}
+
+/* 画面外にいる状態 */
+.fadein {
+    opacity : 0.1;
+    transform : translate(0, 50px);
+    transition : all 500ms;
+    }
+ 
+/* 画面内に入った状態 */
+.fadein.scrollin {
+    opacity : 1;
+    transform : translate(0, 0);
+    }
+
+    /* 吹き出し */
+    .balloon1 {
+        position: relative;
+      
+        margin: 1.5em 0;
+      padding: 20px 10px;
+      min-width: 120px;
+        max-width: 100%;
+        color: white;
+      font-size: 16px;
+      background: #3267B4;
+  }
+   
+  .balloon1:before{
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -60px;
+      border: 60px solid transparent;
+      border-top: 35px solid #3267B4;
+  }
+   
+  .balloon1 p {
+      margin: 0;
+      padding: 0;
+  }
+
+
+    /* 吹き出し */
+    .balloon2 {
+        position: relative;
+      z-index:-100;
+        margin: 1.5em 0;
+      padding: 140px 5px 100px 0;
+      min-width: 120px;
+        max-width: 100%;
+      font-size: 16px;
+      background: #EBF1F5;
+  }
+   
+  .balloon2:before{
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+    /* 　　margin-left: -60px;
+      border: 60px solid transparent;
+      border-top: 35px solid #EBF1F5; */
+  }
+   
+  .balloon2 p {
+      margin: 0;
+      padding: 0;
+  }
+
+  .circle{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: white;
+    text-align:center;
+  }
+  .circle span {
+    position: absolute;
+    display: inline-block;
+    left: 35%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width :80px;
+    text-align:center;
+    color:black;
+  }
+
+  .box2 {
+    padding: 2.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: black;
+    background: #FFF;
+    border: solid 3px orange;
+    border-radius: 10px;
+}
+.box2 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.balloon3 {
+    position: relative;
+  display:inline-block;
+    margin: 1.5em 0 3.5em 0;
+  padding: 5px 25px;
+  min-width: 120px;
+    max-width: 100%;
+    color: white;
+  font-size: 16px;
+  background: blue;
+}
+
+.balloon3:before{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+    margin-left: -15px;
+  border: 15px solid transparent;
+  border-top: 15px solid blue;
+}
+
+.balloon3 p {
+  margin: 0;
+  padding: 0;
+}
+
+.contents {
+    position: relative;
+    overflow: hidden;
+    margin: 10% 0;
+    padding: 80px 0;
+  }
+  
+  .contents:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120%;
+    height: 80%;
+    margin: 3% -10% 0;
+    background: #011931;
+    -webkit-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+    -webkit-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+    z-index: -1;
+  }
+  
+  .contents_inner {
+    box-sizing: boder-box;
+    width: 100%;
+    max-width: 640px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 100px 10px 120px;
+    color: #fff;
+    text-align: center;
+  }
+  
+
+
+
+#btn-point{
+    background:#3267B4;padding: 5px 20px 5px 20px;/* CSS3草案 */-webkit-border-radius: 40px;	/* Safari,Google Chrome用 */-moz-border-radius: 40px;
+}
+#btn-20{
+  margin-bottom:20px;background:#E88C57;padding: 12px 50px 12px 50px;border-radius: 25px;		/* CSS3草案 */-webkit-border-radius: 25px;	/* Safari,Google Chrome用 */-moz-border-radius: 25px;
+}
+#btn-header{
+    background:#E88C57;padding: 12px 30px 12px 30px;border-radius: 20px;		/* CSS3草案 */-webkit-border-radius: 20px;	/* Safari,Google Chrome用 */-moz-border-radius: 20px;
+}
+#btn_tron{
+    background:#E88C57;padding: 12px 50px 12px 50px;border-radius: 25px;		/* CSS3草案 */-webkit-border-radius: 25px;	/* Safari,Google Chrome用 */-moz-border-radius: 25px;
+}
+.white_contain{
+    /* CSS3草案 */-webkit-border-radius: 50px!important;	/* Safari,Google Chrome用 */-moz-border-radius: 50px!important;background:white!important;padding:40px 150px 30px 25px!important; 
+}
+#radiousbox1{
+    padding:50px 80px 50px 80px;border:2px solid white;border-radius: 10px;		/* CSS3草案 */-webkit-border-radius: 10px;	/* Safari,Google Chrome用 */-moz-border-radius: 10px;
+}
+.radiousbox2{
+padding:50px 15px 50px 15px!important;
+/* CSS3草案 */-webkit-border-radius: 30px;	
+/* Safari,Google Chrome用 */-moz-border-radius: 30px;
+border:5px solid #E88C57;
+}
+
+
+.shadow {
+	margin-top: 5px; /* 画像の上の余白*/
+	display: inline-block; 
+	box-shadow: 0px 5px 15px -5px rgba(0, 0, 0, 0.8)!important; /*横方向　下方向　ぼかし　広がり　色 */
+}
+
+
+
+.mb-10{
+    margin-bottom:10px!important;
+}
+.mt-20{
+    margin-top:20px!important;
+}
+.mb-20{
+    margin-bottom:20px!important;
+}
+.mb--24{
+    margin-bottom:-24px!important;
+}
+.mb-30{
+    margin-bottom:30px!important;
+}
+.mt-40{
+    margin-top:40px!important;
+}
+.mb-40{
+    margin-bottom:40px!important;
+}
+.mt-50{
+    margin-top:50px!important;
+}
+.mb-50{
+    margin-bottom:50px!important;
+}
+.mt-60{
+    margin-top:60px!important;
+}
+.mb-60{
+    margin-bottom:60px!important;
+}
+.mb-70{
+    margin-bottom:70px!important;
+}
+.mb-80{
+    margin-bottom:80px!important;
+}
+.mb--80{
+    margin-bottom:-80px!important;
+}
+.mb-90{
+    margin-bottom:90px!important;
+}
+.mt-100{
+    margin-top:100px!important;
+}
+.mb-100{
+    margin-bottom:100px!important;
+}
+.mb-110{
+    margin-bottom:110px!important;
+}
+.mb-120{
+    margin-bottom:120px!important;
+}
+.mt-130{
+    margin-top:130px!important;
+}
+.mb-130{
+    margin-bottom:130px!important;
+}
+.mb-140{
+    margin-bottom:140px!important;
+}
+.mt-150{
+    margin-top:150px!important;
+}
+.mb-150{
+    margin-bottom:150px!important;
+}
+.mb-200{
+    margin-bottom:200px!important;
+}
+.mt--500{
+    margin-top:-500px;
+}
+
+.pr-10{
+    padding-right:20px!important;
+}
+.pl-10{
+    padding-left:20px!important;
+}
+.pt-20{
+    padding-top:20px!important;
+}
+.pb-20{
+    padding-bottom:20px!important;
+}
+.pl-30{
+    padding-left:30px!important;
+}
+.pr-30{
+    padding-right:30px!important;
+}
+.pt-50{
+    padding-top:50px!important;
+}
+.pb-50{
+    padding-bottom:50px!important;
+}
+.pr-50{
+    padding-right:50px!important;
+}
+.pl-50{
+    padding-left:50px!important;
+}
+.pt-100{
+    padding-top:100px!important;
+}
+.pb-100{
+    padding-bottom:100px!important;
+}
+.pt-150{
+    padding-top:150px!important;
+}
+.pb-150{
+    padding-bottom:150px!important;
+}
+.f-12{
+    font-size:12px!important;
+}
+.f-14{
+    font-size:14px!important;
+}
+.f-20{
+    font-size:20px!important;
+}
+.f-26{
+    font-size:26px!important;
+}
+.f-25{
+    font-size:25px!important;
+}
+.f-30{
+    font-size:30px!important;
+}
+.f-35{
+    font-size:35px!important;
+}
+.f-38{
+    font-size:38px!important;
+}
+.f-40{
+    font-size:40px!important;
+}
+.f-46{
+    font-size:46px!important;
+}
+.f-50{
+    font-size:50px!important;
+}
+
+
+.c-w{
+    color:white!important;
+}
+.bc-w{
+    background-color:white!important;
+}
+.c-b{
+    color:black!important;
+}
+.bc-b{
+    background-color:black!important;
+}
+.c-b{
+    color:#3267B4!important;
+}
+.bc-b{
+    background-color:#3267B4!important;
+}
+.c-o{
+    color:#E88C57!important;
+}
+.bc-o{
+    background-color:#E88C57!important;
+}
+.c-y{
+    color:#F8E71C!important;
+}
+.bc-y{
+    background-color:#F8E71C!important;
+}
+.c-rb{
+    color:#EBF1F5!important;
+}
+.bc-rb{
+    background-color:#EBF1F5!important;
+}
+.c-db{
+    color:#18355F!important;
+}
+.bc-db{
+    background-color:#18355F!important;
+}
+
+
+.line-h-40{
+    line-height:40px!important;
+}
+.line-h-60{
+    line-height:60px!important;
+}
+.h-220{
+    height:220px!important;
+}
+.h-250{
+    height:250px!important;
+}
+
+.card{
+    /* CSS3草案 */-webkit-border-radius: 60px!important;	/* Safari,Google Chrome用 */-moz-border-radius: 60px!important;
+}
+
+.f-b{
+     font-weight:bold!important;
+}
