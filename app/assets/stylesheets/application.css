@@ -868,7 +868,7 @@ border:5px solid #E88C57;
 }
 
 .card{
-    /* CSS3草案 */-webkit-border-radius: 60px!important;	/* Safari,Google Chrome用 */-moz-border-radius: 60px!important;
+    /* CSS3草案 */-webkit-border-radius: 30px!important;	/* Safari,Google Chrome用 */-moz-border-radius: 30px!important;
 }
 
 .f-b{
