@@ -1,7 +1,7 @@
     <script type="text/javascript">
         if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
         	// スマホ用のページにリダイレクトする
-        	location.href = '/top/sp';
+        	location.href = '/sp';
         }
     </script>
     
@@ -48,8 +48,8 @@
 
     <div class="container-fluid mb--100">
         <div class="row">
-            <div class="col-12 balloon1 text-center">
-                    <p class="f-30">将来の選択肢を増やすために、今の働き方だけで本当にいいですか？</p>
+            <div class="col-12 balloon1 text-center" style="height:120px">
+                    <p class="f-30" style="line-height:80px">将来の選択肢を増やすために、今の働き方だけで本当にいいですか？</p>
             </div>
         </div>
     </div>
@@ -57,22 +57,22 @@
     <div class="balloon2 mb-120" style="z-index:-10;">
         <div class="container-fluid">
                 <div class="row mb-50">
-                    <div class="col-2"></div>
-                    <div class="col-4">
-                        <p class="d-inline" id="white_contain2"><i class="fas fa-check-circle"></i>　今の職場でしかスキルアップできない　　　　　</p>
+                    <div class="col-lg-2"></div>
+                    <div class="col-6 col-lg-4">
+                        <p class="d-inline" id="white_contain2"><i class="fas fa-check-circle c-b"></i>　今の職場でしかスキルアップできない　　　　　</p>
                     </div>
-                    <div class="col-4">
-                            <p class="d-inline" id="white_contain2"><i class="fas fa-check-circle"></i>　今の職場のまま新たな挑戦がしたい　　　　　　</p>
+                    <div class="col-6 col-lg-4">
+                            <p class="d-inline" id="white_contain2"><i class="fas fa-check-circle c-b"></i>　今の職場のまま新たな挑戦がしたい　　　　　　</p>
                     </div>
-                    <div class="col-2"></div>
+                    <div class="col-lg-2"></div>
                 </div>
                 <div class="row">
                     <div class="col-2"></div>
                     <div class="col-4">
-                            <p class="d-inline" id="white_contain2"><i class="fas fa-check-circle"></i>　今の自分の市場価値を知りたい！　　　　　　　</p>
+                            <p class="d-inline" id="white_contain2"><i class="fas fa-check-circle c-b"></i>　今の自分の市場価値を知りたい！　　　　　　　</p>
                     </div>
                     <div class="col-4">
-                            <p class="d-inline" id="white_contain2"><i class="fas fa-check-circle"></i>　できれば収入を増やしたい！　　　　　　　　　</p>
+                            <p class="d-inline" id="white_contain2"><i class="fas fa-check-circle c-b"></i>　できれば収入を増やしたい！　　　　　　　　　</p>
                     </div>
                     <div class="col-2"></div>
                 </div>
@@ -169,54 +169,69 @@
             <div class="col-8">
                 <div class="row">
                     <div class="col-4">
-                        <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="image/now.png" style="height:220px">
-                                    <div class="card-body h-250">
-                                      <button type="button" class="btn btn-primary mb-20 pr-10 pl-10">現在</button>
-                                      <h6 style="font-weight:bold">一つの会社で毎日残業3時間</h6>
-                                      <div class="row">
-                                          <div class="col-6">
-                                            <p class="f-12">会社にいる時間が収入に直結してしまっているため、新しいスキルを得たり、さらに伸ばすための時間が取れない。</p>
-                                          </div>
-                                          <div class="col-6">
-                                            <img src="/image/card1.png" class="img-fluid">
-                                          </div>
-                                      </div>
-                                    </div>
+                        <div class="row">
+                            <div class="col-10">
+                                <div class="card" style="width: 17rem;">
+                                            <img class="card-img-top" src="image/now.png" style="height:220px">
+                                            <div class="card-body h-250">
+                                              <button type="button" class="btn btn-primary mb-20 pr-10 pl-10">現在</button>
+                                              <h6 style="font-weight:bold">一つの会社で毎日残業3時間</h6>
+                                              <div class="row">
+                                                  <div class="col-6">
+                                                    <p class="f-12">会社にいる時間が収入に直結してしまっているため、新しいスキルを得たり、さらに伸ばすための時間が取れない。</p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                    <img src="/image/card1.png" class="img-fluid">
+                                                  </div>
+                                              </div>
+                                            </div>
+                                </div>
+                            </div>
+                            <div class="col-2 text-right" style="line-height:450px; padding-left:35px"><i class="fas fa-caret-right fa-3x c-b"></i></div>
                         </div>
                     </div>
                     <div class="col-4">
-                        <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="image/next.png" style="height:220px">
-                                    <div class="card-body h-250">
-                                            <button type="button" class="btn btn-primary mb-20 pr-10 pl-10">今後</button>
-                                            <h6 style="font-weight:bold">残業を削り、別のワークをする</h6>
-                                            <div class="row">
-                                                <div class="col-6">
-                                                  <p class="f-12">現在の仕事でだらだらした残業を別のワークにあてることにより、収入を増やすつつ、その経験を通じてスキルを伸ばす。</p>
-                                                </div>
-                                                <div class="col-6">
-                                                  <img src="/image/card2.png" class="img-fluid">
-                                                </div>
+                        <div class="row">
+                            <div class="col-10">
+                                <div class="card" style="width: 17rem;">
+                                            <img class="card-img-top" src="image/next.png" style="height:220px">
+                                            <div class="card-body h-250">
+                                              <button type="button" class="btn btn-primary mb-20 pr-10 pl-10">現在</button>
+                                              <h6 style="font-weight:bold">一つの会社で毎日残業3時間</h6>
+                                              <div class="row">
+                                                  <div class="col-6">
+                                                    <p class="f-12">会社にいる時間が収入に直結してしまっているため、新しいスキルを得たり、さらに伸ばすための時間が取れない。</p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                    <img src="/image/card2.png" class="img-fluid">
+                                                  </div>
+                                              </div>
                                             </div>
-                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2 text-right" style="line-height:450px; padding-left:35px"><i class="fas fa-caret-right fa-3x text-right c-b"></i></div>
                         </div>
                     </div>
                     <div class="col-4">
-                         <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="image/future.png" style="height:220px">
-                                    <div class="card-body h-250">
-                                            <button type="button" class="btn btn-primary mb-20 pr-10 pl-10">未来</button>
-                                            <h6 style="font-weight:bold">複数の仕事をすることにより本業を効率化させ成果を出す</h6>
-                                            <div class="row">
-                                                <div class="col-6">
-                                                  <p class="f-12">会社にいる時間が収入に直結してしまっているため、新しいスキルを得たり、さらに伸ばすための時間が取れない。</p>
-                                                </div>
-                                                <div class="col-6">
-                                                  <img src="/image/card3.png" class="img-fluid">
-                                                </div>
+                        <div class="row">
+                            <div class="col-10">
+                                <div class="card" style="width: 17rem;">
+                                            <img class="card-img-top" src="image/future.png" style="height:220px">
+                                            <div class="card-body h-250">
+                                              <button type="button" class="btn btn-primary mb-20 pr-10 pl-10">現在</button>
+                                              <h6 style="font-weight:bold">一つの会社で毎日残業3時間</h6>
+                                              <div class="row">
+                                                  <div class="col-6">
+                                                    <p class="f-12">会社にいる時間が収入に直結してしまっているため、新しいスキルを得たり、さらに伸ばすための時間が取れない。</p>
+                                                  </div>
+                                                  <div class="col-6">
+                                                    <img src="/image/card3.png" class="img-fluid">
+                                                  </div>
+                                              </div>
                                             </div>
-                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2 text-right"></div>
                         </div>
                     </div>
                 </div>
