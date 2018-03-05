@@ -203,13 +203,16 @@ header{
    margin-bottom:20px;background:#E88C57;padding: 12px 50px 12px 50px;border-radius: 25px;		/* CSS3草案 */-webkit-border-radius: 25px;	/* Safari,Google Chrome用 */-moz-border-radius: 25px;
 }
 #btn-header{
-    background:#E88C57;padding: 12px 30px 12px 30px;border-radius: 20px;		/* CSS3草案 */-webkit-border-radius: 20px;	/* Safari,Google Chrome用 */-moz-border-radius: 20px;
+    background:#E88C57;padding: 12px 50px 12px 50px!important;border-radius: 25px!important;		/* CSS3草案 */-webkit-border-radius: 25px!important;	/* Safari,Google Chrome用 */-moz-border-radius: 25px!important;
 }
-#btn_tron{
-    background:#E88C57;padding: 12px 50px 12px 50px;border-radius: 25px;		/* CSS3草案 */-webkit-border-radius: 25px;	/* Safari,Google Chrome用 */-moz-border-radius: 25px;
+.btn_tron{
+    background:#E88C57;padding: 12px 100px 12px 100px!important; border-radius: 35px!important;		/* CSS3草案 */-webkit-border-radius: 35px!important;	/* Safari,Google Chrome用 */-moz-border-radius: 35px!important;
+}
+.btn_tron a{
+    font-size:30px;
 }
 #btn_footer{
-    background:#E88C57;padding: 12px 100px 12px 100px;border-radius: 25px;		/* CSS3草案 */-webkit-border-radius: 40px;	/* Safari,Google Chrome用 */-moz-border-radius: 40px;
+    background:#E88C57;padding: 12px 50px 12px 50px;border-radius: 25px;		/* CSS3草案 */-webkit-border-radius: 40px;	/* Safari,Google Chrome用 */-moz-border-radius: 4px;
 }
 #white_contain{
     /* CSS3草案 */-webkit-border-radius: 10px;	/* Safari,Google Chrome用 */-moz-border-radius: 10px;background:white;padding:30px 20px 30px 20px!important; 
@@ -886,8 +889,20 @@ border:5px solid #E88C57;
 a{
     color:black!important;
 }
+a:hover{
+text-decoration: none!important;
+}
 
-
-/*.footer{*/
-/*    background:url(/image/eyecatch2.jpg)!important;*/
-/*}*/
+.fly {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    /*margin: 10px 0 0 0;*/
+}
+.fly:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
