@@ -15,7 +15,7 @@ header{
     top:0;
     background: rgba(255,255,255,0.99);
 }
-.jumbotron {background:linear-gradient(rgba(0, 0, 0, 0.6) 80%, rgba(0, 0, 0, 0.6) 100%, rgba(128, 128, 128, 1)),url(/image/eyecatch2.jpg); background-size: cover; height:530px;}
+.jumbotron {background:linear-gradient(rgba(0, 0, 0, 0.6) 80%, rgba(0, 0, 0, 0.6) 100%, rgba(128, 128, 128, 1)),url(/image/eyecatch2.jpg); background-size: cover; height:530px; margin-bottom:0!important;}
 
 
 /* 画面外にいる状態 */
@@ -65,7 +65,7 @@ header{
         position: relative;
       z-index:-100;
         margin: 1.5em 0;
-       padding: 140px 5px 100px 0;
+       padding: 140px 5px 60px 0;
        min-width: 120px;
         max-width: 100%;
        font-size: 16px;
@@ -212,7 +212,10 @@ header{
     font-size:30px;
 }
 #btn_footer{
-    background:#E88C57;padding: 12px 50px 12px 50px;border-radius: 25px;		/* CSS3草案 */-webkit-border-radius: 40px;	/* Safari,Google Chrome用 */-moz-border-radius: 4px;
+    background:#E88C57;padding: 12px 100px 12px 100px;border-radius: 25px;		/* CSS3草案 */-webkit-border-radius: 40px;	/* Safari,Google Chrome用 */-moz-border-radius: 4px;
+}
+#btn_footer a{
+    font-size:40px;
 }
 #white_contain{
     /* CSS3草案 */-webkit-border-radius: 10px;	/* Safari,Google Chrome用 */-moz-border-radius: 10px;background:white;padding:30px 20px 30px 20px!important; 
@@ -223,9 +226,7 @@ header{
 .radiousbox1{
     margin:0 90px 0 90px;padding:50px 50px 50px 50px;border:2px solid white;border-radius: 50px;		/* CSS3草案 */-webkit-border-radius: 50px;	/* Safari,Google Chrome用 */-moz-border-radius: 10px;
 }
-#radiousbox2{
-    border:3px solid #F8E31C;padding:15px 5px 10px 5px;	/* CSS3草案 */-webkit-border-radius: 25px;	/* Safari,Google Chrome用 */-moz-border-radius: 25px;
-}
+
 
 
 
@@ -303,6 +304,9 @@ header{
 .mb-150{
     margin-bottom:150px!important;
 }
+.mt-200{
+    margin-top:200px!important;
+}
 .mb-200{
     margin-bottom:200px!important;
 }
@@ -343,6 +347,9 @@ header{
 .pt-70{
     padding-top:70px!important;
 }
+.pb-70{
+    padding-bottom:70px!important;
+}
 .pt-100{
     padding-top:100px!important;
 }
@@ -351,6 +358,9 @@ header{
 }
 .pt-150{
     padding-top:150px!important;
+}
+.pt-250{
+    padding-top:250px!important;
 }
 .f-12{
     font-size:12px!important;
@@ -380,14 +390,12 @@ header{
 .c-b{
     color:black!important;
 }
-.bc-b{
-    background-color:black!important;
-}
+
 .c-b{
-    color:#3267B4!important;
+    color:#1060D6!important;
 }
 .bc-b{
-    background-color:#3267B4!important;
+    background-color:#1060D6!important;
 }
 .c-o{
     color:#E88C57!important;
@@ -499,32 +507,6 @@ header{
    }
 
 
-    /* 吹き出し */
-    .balloon2 {
-        position: relative;
-      z-index:-100;
-        margin: 1.5em 0;
-       padding: 140px 5px 100px 0;
-       min-width: 120px;
-        max-width: 100%;
-       font-size: 16px;
-       background: #EBF1F5;
-   }
-   
-   .balloon2:before{
-       content: "";
-       position: absolute;
-       top: 100%;
-       left: 50%;
-    /* 　　margin-left: -60px;
-       border: 60px solid transparent;
-       border-top: 35px solid #EBF1F5; */
-   }
-   
-   .balloon2 p {
-       margin: 0;
-       padding: 0;
-   }
 
    .circle{
     display: inline-block;
@@ -649,7 +631,7 @@ header{
 padding:50px 15px 50px 15px!important;
 /* CSS3草案 */-webkit-border-radius: 30px;	
 /* Safari,Google Chrome用 */-moz-border-radius: 30px;
-border:5px solid #E88C57;
+border:5px solid #F8E31C;
 }
 
 
@@ -826,14 +808,8 @@ border:5px solid #E88C57;
 .c-b{
     color:black!important;
 }
-.bc-b{
-    background-color:black!important;
-}
-.c-b{
-    color:#3267B4!important;
-}
-.bc-b{
-    background-color:#3267B4!important;
+.c-p{
+    color:#FF6E9D;
 }
 .c-o{
     color:#E88C57!important;
