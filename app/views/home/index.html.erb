@@ -1,11 +1,10 @@
-
-<!--<%= button_to "ログアウト", destroy_user_session_path, method: :delete %><br>-->
-
-
-
-
-
-
+    <script type="text/javascript">
+        if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
+        	// スマホ用のページにリダイレクトする
+        	location.href = '/sp';
+        }
+    </script>
+    
 
     <!--ヘッダー-->
     <header>
@@ -17,7 +16,7 @@
             <div class="col-6 header-bk">
               <div class="container-fluid">
                 <div class="row" style="display: flex; align-items: center;">
-                  <div class="col-12 text-right pr-50" style="font-weight:bold;"><button type="button" class="btn btn-danger" id="btn-header"><%= link_to "今すぐ登録", user_facebook_omniauth_authorize_path %></button></div>
+                  <div class="col-12 text-right pr-50" style="font-weight:bold;"><button type="button" class="btn btn-danger bc-y" id="btn-header"><%= link_to "今すぐ登録", user_facebook_omniauth_authorize_path %></button></div>
                 </div>
               </div>
             </div>
@@ -28,22 +27,23 @@
 
 	<div class="jumbotron jumbotron-fluid pt-70 mb--24">
         <div class="container mb-40">
-          <h2 class="display-4 text-center c-w f-46">もったいない時間を<br>パラレルキャリアで有効活用しよう！</h2>
+            
         </div>
         <div class="container-fluid mx-auto">
             <div class="row mx-auto">
                 <div class="col-2"></div>
                 <div class="col-8 text-center mx-auto">
                     <div class="radiousbox1">
-                        <p class="c-w f-26 f-b"><span class="c-y">今だけ</span>事前登録した人から優先的に<span class="c-y">給料前払い</span>！</p>
-                        <!--<p class="c-w f-14">さらにカイコクの最新情報や、サービスリリース時にいち早い情報をお届けします！</p>-->
-                        <button type="button" class="btn btn-danger" id="btn_tron">今すぐ事前登録</button>
+                        <h2 class="display-4 text-center c-w f-30 pb-30" style="border-bottom:3px solid white">もったいない時間を<br>パラレルキャリアで有効活用できるサービス</h2>
+                        <p class="c-w f-26 pt-20">今だけ事前登録した人から優先的に給料前払い！</p>
+                        <button type="button" class="btn btn-danger bc-y" id="btn_tron"><%= link_to "今すぐ登録", user_facebook_omniauth_authorize_path %></button>
                     </div>
                 </div>
                 <div class="col-2"></div>
             </div>
         </div>
     </div>	
+ 
 
 
     <div class="container-fluid mb--100">
@@ -105,7 +105,7 @@
                 <p>あなたのスキルに合わせて、本来の市場価値を診断して、可視化できます！その市場価値に合わせて働く前に報酬がもらえます。</p>
             </div>
             <div class="col-4">
-                <img src="image/point_1.png" class="img-fluid shadow"style="z-index:2;">
+                <img src="/image/point_1.png" class="img-fluid shadow"style="z-index:2;">
             </div>
             <div class="col-2"></div>
         </div>
@@ -134,7 +134,7 @@
         <div class="row">
             <div class="col-2"></div>
             <div class="col-4">
-                <img src="image/point_2.png" class="img-fluid">
+                <img src="/image/point_2.png" class="img-fluid">
             </div>
             <div class="col-4 pt-60">
                 <button type="button" class="btn btn-primary mb-20" id="btn-point">Point2</button>
@@ -156,7 +156,7 @@
                     <p>パラレルワークを始めるに当たって、税金や保険のことなど、勉強することがたくさんあります。調べてもわからないことが多いです。でもカイコクなら知識0の人でも安心して始められる、コンテンツやサポートをご用意しています。</p>
                 </div>
                 <div class="col-4">
-                    <img src="image/point_3.png" class="img-fluid">
+                    <img src="/image/point_3.png" class="img-fluid">
                 </div>
                 <div class="col-2"></div>
             </div>
@@ -179,7 +179,7 @@
                                             <p class="f-12">会社にいる時間が収入に直結してしまっているため、新しいスキルを得たり、さらに伸ばすための時間が取れない。</p>
                                           </div>
                                           <div class="col-6">
-                                            <img src="image/card1.png" class="img-fluid">
+                                            <img src="/image/card1.png" class="img-fluid">
                                           </div>
                                       </div>
                                     </div>
@@ -196,7 +196,7 @@
                                                   <p class="f-12">現在の仕事でだらだらした残業を別のワークにあてることにより、収入を増やすつつ、その経験を通じてスキルを伸ばす。</p>
                                                 </div>
                                                 <div class="col-6">
-                                                  <img src="image/card2.png" class="img-fluid">
+                                                  <img src="/image/card2.png" class="img-fluid">
                                                 </div>
                                             </div>
                                     </div>
@@ -213,7 +213,7 @@
                                                   <p class="f-12">会社にいる時間が収入に直結してしまっているため、新しいスキルを得たり、さらに伸ばすための時間が取れない。</p>
                                                 </div>
                                                 <div class="col-6">
-                                                  <img src="image/card3.png" class="img-fluid">
+                                                  <img src="/image/card3.png" class="img-fluid">
                                                 </div>
                                             </div>
                                     </div>
@@ -226,7 +226,7 @@
     </div>
     
 
-        <footer class="pt-50 pb-20 c-w bc-db">
+        <footer class="pt-50 pb-20 c-w bc-db footer">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-2"></div>
@@ -234,12 +234,12 @@
                         <div class="row">
                             <div class="col-6" style="border-right: 1px solid">
                                 <h5 class="mb-20">今すぐ事前登録をしよう！！</h5>
-                                <button type="button" class="btn btn-danger" id="btn-20">今すぐ事前登録</button>
+                                <button type="button" class="btn btn-danger bc-y" id="btn-20"><%= link_to "今すぐ登録", user_facebook_omniauth_authorize_path %></button>
                                 <p class="f-12">登録した人から優先今だけ事前登録した人から優先的に給料前払い！！<br>さらにカイコクの最新情報を受け取ることができます。</p>
                             </div>
                             <div class="col-1"></div>
                             <div class="col-5">
-                                <h6><span class="c-o">></span>　お問い合わせ</h6>
+                                <h6><a href="http://blam.co.jp/contact" class="c-w"><span class="c-o">></span>　お問い合わせ</a></h6>
                                 <p class="f-12">サービスに関するお問い合わせは、上記からお願いいたします。</p>
                                 <br>
                                 <h6><span class="c-o">></span>　運営会社</h6>

@@ -27,15 +27,15 @@
 
 	<div class="jumbotron jumbotron-fluid pt-70 mb--24">
         <div class="container mb-40">
-          <h2 class="display-4 text-center c-w f-46">もったいない時間を<br>パラレルキャリアで有効活用しよう！</h2>
+            
         </div>
         <div class="container-fluid mx-auto">
             <div class="row mx-auto">
                 <div class="col-2"></div>
                 <div class="col-8 text-center mx-auto">
                     <div class="radiousbox1">
-                        <p class="c-w f-26 f-b"><span class="c-y">今だけ</span>事前登録した人から優先的に<span class="c-y">給料前払い</span>！</p>
-                        <!--<p class="c-w f-14">さらにカイコクの最新情報や、サービスリリース時にいち早い情報をお届けします！</p>-->
+                        <h2 class="display-4 text-center c-w f-30 pb-30" style="border-bottom:3px solid white">もったいない時間を<br>パラレルキャリアで有効活用できるサービス</h2>
+                        <p class="c-w f-26 pt-20">今だけ事前登録した人から優先的に給料前払い！</p>
                         <button type="button" class="btn btn-danger bc-y" id="btn_tron"><%= link_to "今すぐ登録", user_facebook_omniauth_authorize_path %></button>
                     </div>
                 </div>
@@ -43,6 +43,7 @@
             </div>
         </div>
     </div>	
+ 
 
 
     <div class="container-fluid mb--100">
@@ -169,7 +170,7 @@
                 <div class="row">
                     <div class="col-4">
                         <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="image/graph_3.png" style="height:220px">
+                                    <img class="card-img-top" src="image/now.png" style="height:220px">
                                     <div class="card-body h-250">
                                       <button type="button" class="btn btn-primary mb-20 pr-10 pl-10">現在</button>
                                       <h6 style="font-weight:bold">一つの会社で毎日残業3時間</h6>
@@ -186,7 +187,7 @@
                     </div>
                     <div class="col-4">
                         <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="image/graph_2.png" style="height:220px">
+                                    <img class="card-img-top" src="image/next.png" style="height:220px">
                                     <div class="card-body h-250">
                                             <button type="button" class="btn btn-primary mb-20 pr-10 pl-10">今後</button>
                                             <h6 style="font-weight:bold">残業を削り、別のワークをする</h6>
@@ -203,7 +204,7 @@
                     </div>
                     <div class="col-4">
                          <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="image/graph_1.png" style="height:220px">
+                                    <img class="card-img-top" src="image/future.png" style="height:220px">
                                     <div class="card-body h-250">
                                             <button type="button" class="btn btn-primary mb-20 pr-10 pl-10">未来</button>
                                             <h6 style="font-weight:bold">複数の仕事をすることにより本業を効率化させ成果を出す</h6>
@@ -225,31 +226,33 @@
     </div>
     
 
-        <footer class="pt-50 pb-20 c-w bc-db">
+        <footer class=" c-w footer bc-db">
             <div class="container-fluid">
-                <div class="row">
+                <div class="row mb-30" style="background:linear-gradient(rgba(128, 128, 128, 0.6) 80%, rgba(128, 128, 128, 0.6) 100%, rgba(128, 128, 128, 1)),url(/image/footer_image.jpg)">
                     <div class="col-2"></div>
-                    <div class="col-8">
-                        <div class="row">
-                            <div class="col-6" style="border-right: 1px solid">
-                                <h5 class="mb-20">今すぐ事前登録をしよう！！</h5>
-                                <button type="button" class="btn btn-danger bc-y" id="btn-20"><%= link_to "今すぐ登録", user_facebook_omniauth_authorize_path %></button>
-                                <p class="f-12">登録した人から優先今だけ事前登録した人から優先的に給料前払い！！<br>さらにカイコクの最新情報を受け取ることができます。</p>
-                            </div>
-                            <div class="col-1"></div>
-                            <div class="col-5">
-                                <h6><a href="http://blam.co.jp/contact" class="c-w"><span class="c-o">></span>　お問い合わせ</a></h6>
-                                <p class="f-12">サービスに関するお問い合わせは、上記からお願いいたします。</p>
-                                <br>
-                                <h6><span class="c-o">></span>　運営会社</h6>
-                                <p class="f-12">本サービスは、株式会社BLAMが運営しております。</p>
-                            </div>
-                        </div>
-                        <div class="row mt-40">
-                            <div class="col-12 text-center" style="border-top:1px solid;">
-                                <small>Copyright BLAM, Inc All Rights Reserved</small>
-                            </div>
-                        </div>
+                    <div class="col-8 text-center mb-50">
+                        <h2 class="mb-30 mt-50">今すぐ事前登録をしよう</h2>
+                        <button type="button" class="btn btn-danger bc-y mb-30" id="btn_tron"><%= link_to "今すぐ登録", user_facebook_omniauth_authorize_path %></button>
+                        <p>事前登録した人から優先的に給料を前払い！！<br>さらにカイコクの最新情報を受け取ることができます。</p>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                <div class="row mp-50">
+                    <div class="col-2"></div>
+                    <div class="col-4 text-left pb-20" style="border-bottom:1px solid white">
+                        <p><span class="c-o">></span>　お問い合わせ</p>
+                        <p>サービスに関するお問い合わせは、上記からお願いいたします。</p>
+                    </div>
+                    <div class="col-4 text-left pb-20" style="border-bottom:1px solid white">
+                        <p><span class="c-o">></span>　運営会社</p>
+                        <p>本サービスは、株式会社BLAMが運営しています。</p>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                <div class="row mt-10">
+                    <div class="col-2"></div>
+                    <div class="col-8 text-right">
+                        <small>Copyright BLAM, Inc All Rights Reserved</small>
                     </div>
                     <div class="col-2"></div>
                 </div>

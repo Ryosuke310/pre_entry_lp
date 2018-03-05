@@ -15,10 +15,8 @@ header{
     top:0;
     background: rgba(255,255,255,0.99);
 }
-.jumbotron { background:linear-gradient(rgba(50, 103, 180, 0.6) 80%, rgba(50, 103, 180, 0.6) 100%, rgba(50, 103, 180, 1)),url(/image/img_main.jpg); background-size: cover; height:530px;}
-.jumbotron {
-  
-}
+.jumbotron {background:linear-gradient(rgba(0, 0, 0, 0.6) 80%, rgba(0, 0, 0, 0.6) 100%, rgba(128, 128, 128, 1)),url(/image/eyecatch2.jpg); background-size: cover; height:530px;}
+
 
 /* 画面外にいる状態 */
 .fadein {
@@ -220,7 +218,7 @@ header{
     margin:0 90px 0 90px;padding:50px 50px 50px 50px;border:2px solid white;border-radius: 50px;		/* CSS3草案 */-webkit-border-radius: 50px;	/* Safari,Google Chrome用 */-moz-border-radius: 10px;
 }
 #radiousbox2{
-    border:2px solid #E88C57;padding:15px 5px 10px 5px;	/* CSS3草案 */-webkit-border-radius: 30px;	/* Safari,Google Chrome用 */-moz-border-radius: 30px;
+    border:3px solid #F8E31C;padding:15px 5px 10px 5px;	/* CSS3草案 */-webkit-border-radius: 25px;	/* Safari,Google Chrome用 */-moz-border-radius: 25px;
 }
 
 
@@ -314,6 +312,9 @@ header{
 }
 .pb-20{
     padding-bottom:20px!important;
+}
+.pb-30{
+    padding-bottom:30px!important;
 }
 .pt-50{
     padding-top:50px!important;
@@ -832,10 +833,11 @@ border:5px solid #E88C57;
     background-color:#E88C57!important;
 }
 .c-y{
-    color:#F8E71C!important;
+    color:#F8E31C!important;
 }
 .bc-y{
-    background-color:#F8E71C!important;
+    background-color:#F8E31C!important;
+    border: 1px solid #F8E31C!important;
 }
 .c-rb{
     color:#EBF1F5!important;
@@ -880,3 +882,6 @@ a{
 }
 
 
+/*.footer{*/
+/*    background:url(/image/eyecatch2.jpg)!important;*/
+/*}*/

@@ -14,7 +14,7 @@ header{
     top:0;
     background: rgba(255,255,255,0.99);
 }
-.jumbotron { background:linear-gradient(rgba(50, 103, 180, 0.6) 80%, rgba(50, 103, 180, 0.6) 100%, rgba(50, 103, 180, 1)),url(image/img_main.jpg); background-size: cover;}
+.jumbotron { background:linear-gradient(rgba(128, 128, 128, 0.6) 80%, rgba(128, 128, 128, 0.6) 100%, rgba(128, 128, 128, 1)),url(/image/eyecatch.jpg); background-size: cover;}
 .jumbotron {
   height:1000px!important;
 }
@@ -209,9 +209,9 @@ header{
 }
 .radiousbox2{
 padding:50px 15px 50px 15px!important;
-/* CSS3草案 */-webkit-border-radius: 30px;	
-/* Safari,Google Chrome用 */-moz-border-radius: 30px;
-border:5px solid #E88C57;
+/* CSS3草案 */-webkit-border-radius: 25px;	
+/* Safari,Google Chrome用 */-moz-border-radius: 25px;
+border:3px solid #F8E31C;
 }
 
 
@@ -404,10 +404,10 @@ border:5px solid #E88C57;
     background-color:#E88C57!important;
 }
 .c-y{
-    color:#F8E71C!important;
+    color:#F8E31C!important;
 }
 .bc-y{
-    background-color:#F8E71C!important;
+    background-color:#F8E31C!important;
 }
 .c-rb{
     color:#EBF1F5!important;
