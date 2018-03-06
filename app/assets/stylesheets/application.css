@@ -170,10 +170,10 @@ header{
     color:black!important;
 }
 #btn-point{
-    background:#3267B4;padding: 5px 20px 5px 20px;/* CSS3草案 */-webkit-border-radius: 20px;	/* Safari,Google Chrome用 */-moz-border-radius: 20px; 
+    background:#1060D6; border: 1px solid #1060D6;padding: 5px 20px 5px 20px;border-radius: 30px!important;	/* CSS3草案 */-webkit-border-radius: 30px!important;	/* Safari,Google Chrome用 */-moz-border-radius: 30px!important; 
 }
 #btn-20{
-   margin-bottom:20px;background:#E88C57;padding: 12px 50px 12px 50px;border-radius: 25px;		/* CSS3草案 */-webkit-border-radius: 25px;	/* Safari,Google Chrome用 */-moz-border-radius: 25px;
+   margin-bottom:20px;background:#E88C57;padding: 12px 50px 12px 50px;border-radius: 25px!important;		/* CSS3草案 */-webkit-border-radius: 25px!important;	/* Safari,Google Chrome用 */-moz-border-radius: 25px!important;
 }
 #btn-header{
     background:#E88C57;padding: 15px 60px 15px 60px!important;border-radius: 30px!important;		/* CSS3草案 */-webkit-border-radius: 30px!important;	/* Safari,Google Chrome用 */-moz-border-radius: 30px!important;
@@ -197,7 +197,7 @@ btn-header a{
     font-size:40px;
 }
 .btn_card{
-    padding:5px 12px 5px 12px!important;
+    padding:5px 12px 5px 12px!important; background:#1060D6!important;
 }
 #white_contain{
     /* CSS3草案 */-webkit-border-radius: 10px;	/* Safari,Google Chrome用 */-moz-border-radius: 10px;background:white;padding:30px 20px 30px 20px!important; 
