@@ -7,15 +7,15 @@
     
     <form class="formrun text-center form-style-6" action="https://form.run/api/v1/r/lglp0ynt8icldmu96k0plw3r" method="post">
           <div>
-            <input name="お名前"  type="hidden"value=<%= current_user.name %> data-formrun-required>
+            <input class="form-control form-control-lg" name="お名前"  type="hidden"value=<%= current_user.name %> data-formrun-required>
           </div>
-          <div class="form-group" style="width:250px">
+          <div class="form-group">
             <!--<label class="f-30">メールアドレス [必須]</label>-->
-            <input name="メールアドレス" type="text" value= <%= current_user.email %> placeholder="メールアドレス" data-formrun-type="email" data-formrun-required>
+            <input class="form-control form-control-lg" name="メールアドレス" type="text" value= <%= current_user.email %> placeholder="メールアドレス" data-formrun-type="email" data-formrun-required>
           </div>
-      <div class="form-group" style="width:250px">
+      <div class="form-group">
         <!--<label class="f-30">お勤め先 [必須]</label>-->
-        <input name="お勤め先" type="text" placeholder="お勤め先（必須）" data-formrun-required></input>
+        <input class="form-control form-control-lg" name="お勤め先" type="text" placeholder="お勤め先（必須）" data-formrun-required></input>
       </div>
     
       <div class="form-group">
