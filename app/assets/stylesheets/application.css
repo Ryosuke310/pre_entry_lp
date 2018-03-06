@@ -1,7 +1,7 @@
 body{
     font-family: "Lucida Grande", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif!important;
     padding-top: 70px;
-    width:1480px;
+    min-width:1480px;
 }
 header{
     width:100%;
@@ -14,7 +14,7 @@ header{
 }
 
 .jumbotron {background:url(/image/img_eyecatch.jpg); background-size: cover; height:640px; margin-bottom:0!important;}
-
+.jumb_sp{height:1000px!important;}
     /* 吹き出し */
 .balloon1 {
         position: relative;
@@ -176,7 +176,10 @@ header{
    margin-bottom:20px;background:#E88C57;padding: 12px 50px 12px 50px;border-radius: 25px;		/* CSS3草案 */-webkit-border-radius: 25px;	/* Safari,Google Chrome用 */-moz-border-radius: 25px;
 }
 #btn-header{
-    background:#E88C57;padding: 20px 60px 20px 60px!important;border-radius: 30px!important;		/* CSS3草案 */-webkit-border-radius: 30px!important;	/* Safari,Google Chrome用 */-moz-border-radius: 30px!important;
+    background:#E88C57;padding: 15px 60px 15px 60px!important;border-radius: 30px!important;		/* CSS3草案 */-webkit-border-radius: 30px!important;	/* Safari,Google Chrome用 */-moz-border-radius: 30px!important;
+}
+#btn-header_sp{
+    background:#E88C57;padding: 15px 60px 15px 60px!important;height:120px;margin-top:-15px;border-radius: 0px!important;		/* CSS3草案 */-webkit-border-radius: 0px!important;	/* Safari,Google Chrome用 */-moz-border-radius: 0px!important;
 }
 btn-header a{
     font-size:14px;
@@ -193,14 +196,23 @@ btn-header a{
 #btn_footer a{
     font-size:40px;
 }
+.btn_card{
+    padding:5px 12px 5px 12px!important;
+}
 #white_contain{
     /* CSS3草案 */-webkit-border-radius: 10px;	/* Safari,Google Chrome用 */-moz-border-radius: 10px;background:white;padding:30px 20px 30px 20px!important; 
 }
 #white_contain2{
     /* CSS3草案 */-webkit-border-radius: 10px;	/* Safari,Google Chrome用 */-moz-border-radius: 10px;background:white;padding:20px 20px 20px 20px!important; 
 }
+.white_contain2_sp{
+    /* CSS3草案 */-webkit-border-radius: 10px;	/* Safari,Google Chrome用 */-moz-border-radius: 10px;background:white;padding:20px 20px 20px 20px!important; width:600px;
+}
 .radiousbox1{
-    margin:0 90px 0 90px;padding:50px 50px 50px 50px;border:2px solid white;
+    margin:0 90px 0 90px;padding:50px 50px 50px 50px;border:4px solid white;
+}
+.radiousbox1_sp{
+    margin:0 90px 0 90px;padding:50px 50px 50px 50px;border:8px solid white;
 }
 .radiousbox2{
 padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30px;	/* Safari,Google Chrome用 */-moz-border-radius: 30px; border:5px solid #F8E31C!important;
@@ -268,6 +280,9 @@ padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30p
 .mb-10{
     margin-bottom:10px!important;
 }
+.mt--10{
+    margin-top:-10px!important;
+}
 .mt-20{
     margin-top:20px!important;
 }
@@ -285,6 +300,9 @@ padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30p
 }
 .mt-25{
     margin-top:25px!important;
+}
+.mb-25{
+    margin-bottom:25px!important;
 }
 .mt-30{
     margin-top:30px!important;
@@ -361,8 +379,8 @@ padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30p
 .mb-200{
     margin-bottom:200px!important;
 }
-.mt--470{
-    margin-top:-470px;
+.mt--480{
+    margin-top:-480px;
 }
 
 .pr-10{
@@ -377,8 +395,17 @@ padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30p
 .pb-20{
     padding-bottom:20px!important;
 }
+.pb-25{
+    padding-bottom:25px!important;
+}
 .pb-30{
     padding-bottom:30px!important;
+}
+.pl-30{
+    padding-left:30px!important;
+}
+.pr-30{
+    padding-right:30px!important;
 }
 .pt-50{
     padding-top:50px!important;
@@ -413,6 +440,9 @@ padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30p
 .pt-150{
     padding-top:150px!important;
 }
+.pt-180{
+    padding-top:180px!important;
+}
 .pt-250{
     padding-top:250px!important;
 }
@@ -422,20 +452,26 @@ padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30p
 .f-14{
     font-size:14px!important;
 }
+.f-16{
+    font-size:16px!important;
+}
 .f-18{
     font-size:18px!important;
 }
 .f-20{
     font-size:20px!important;
 }
+.f-22{
+    font-size:22px!important;
+}
 .f-24{
     font-size:24px!important;
 }
-.f-26{
-    font-size:26px!important;
-}
 .f-25{
     font-size:25px!important;
+}
+.f-26{
+    font-size:26px!important;
 }
 .f-28{
     font-size:28px!important;
@@ -449,6 +485,9 @@ padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30p
 .f-35{
     font-size:35px!important;
 }
+.f-36{
+    font-size:36px!important;
+}
 .f-38{
     font-size:38px!important;
 }
@@ -457,6 +496,9 @@ padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30p
 }
 .f-42{
     font-size:42px!important;
+}
+.f-44{
+    font-size:44px!important;
 }
 .f-46{
     font-size:46px!important;
@@ -559,8 +601,8 @@ padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30p
 .h-220{
     height:220px!important;
 }
-.h-250{
-    height:250px!important;
+.h-230{
+    height:230px!important;
 }
 
 
