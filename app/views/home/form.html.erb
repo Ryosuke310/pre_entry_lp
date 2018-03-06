@@ -1,51 +1,51 @@
 
 <div class="form_body">
 
-<h2 class="text-center mb-60 f-50">事前登録フォーム</h2>
-
- 
-
-<form class="formrun text-center form-style-6" action="https://form.run/api/v1/r/lglp0ynt8icldmu96k0plw3r" method="post">
-      <div>
-        <input name="お名前"  type="hidden"value=<%= current_user.name %> data-formrun-required>
-      </div>
+    <!--<h2 class="text-center mb-60 f-50">事前登録フォーム</h2>-->
+    <img src="/image/BLAM_logo.png" class="text-center mb-60">
+     
+    
+    <form class="formrun text-center form-style-6" action="https://form.run/api/v1/r/lglp0ynt8icldmu96k0plw3r" method="post">
+          <div>
+            <input name="お名前"  type="hidden"value=<%= current_user.name %> data-formrun-required>
+          </div>
+          <div class="form-group">
+            <label class="f-30">メールアドレス [必須]</label>
+            <input name="メールアドレス" type="text" value= <%= current_user.email %> data-formrun-type="email" data-formrun-required>
+          </div>
       <div class="form-group">
-        <label class="f-30">メールアドレス [必須]</label>
-        <input name="メールアドレス" type="text" value= <%= current_user.email %> data-formrun-type="email" data-formrun-required>
+        <label class="f-30">お勤め先 [必須]</label>
+        <input name="お勤め先" type="text" data-formrun-required></input>
       </div>
-  <div class="form-group">
-    <label class="f-30">お勤め先 [必須]</label>
-    <input name="お勤め先" type="text" data-formrun-required></input>
-  </div>
-
-  <div class="form-group">
-    <label class="f-30">職種 [必須]</label>
-    <select name="職種" type="text" data-formrun-required size="1">
-        <option value="デジタルマーケター">デジタルマーケター</option>
-        <option value="エンジニア">エンジニア</option>
-        <option value="デザイナー">デザイナー</option>
-    </select>
-  </div>
-  
-  <div>
-    <input name="FBid" type="hidden" value= <%= current_user.uid %> data-formrun-required></input>
-  </div>
-  
-  <div class="privacy mx-auto">
-    皆様から収集いたしました個人情報は、お問合せに関してのご連絡や当社 のサービス・商品のお知らせのためにのみ利用させて頂きます。 なお、弊社が求める個人情報のご提供がいただけない場合や入力内容に不備があった場合等におきましては、その後のご連絡、お知らせ等ができない可能性がありますのでご注意ください。 
-    ※個人情報の取り扱いに関する弊社の基本的な考え方は「プライバシーポリシー」をご参照下さい。
-  </div>
-  
-  <div class="mt-20 form-check form-check-inline mx-auto">
-    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-    <label class="form-check-label" for="inlineCheckbox1">以上の内容に同意する</label>
-  </div>
-  <br>
-  <button type="submit" class="btn btn-info mt-20 f-25 btn-lg" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">登録</button>
-</form>
-
-<p class="mt-20 text-center privacy_link"><%= link_to "プライバシーポリシー", "/" %></p>
-
+    
+      <div class="form-group">
+        <label class="f-30">職種 [必須]</label>
+        <select name="職種" type="text" data-formrun-required size="1">
+            <option value="デジタルマーケター">デジタルマーケター</option>
+            <option value="エンジニア">エンジニア</option>
+            <option value="デザイナー">デザイナー</option>
+        </select>
+      </div>
+      
+      <div>
+        <input name="FBid" type="hidden" value= <%= current_user.uid %> data-formrun-required></input>
+      </div>
+      
+      <div class="privacy mx-auto">
+        皆様から収集いたしました個人情報は、お問合せに関してのご連絡や当社 のサービス・商品のお知らせのためにのみ利用させて頂きます。 なお、弊社が求める個人情報のご提供がいただけない場合や入力内容に不備があった場合等におきましては、その後のご連絡、お知らせ等ができない可能性がありますのでご注意ください。 
+        ※個人情報の取り扱いに関する弊社の基本的な考え方は「プライバシーポリシー」をご参照下さい。
+      </div>
+      
+      <div class="mt-20 form-check form-check-inline mx-auto">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+        <label class="form-check-label" for="inlineCheckbox1">以上の内容に同意する</label>
+      </div>
+      <br>
+      <button type="submit" class="btn btn-info mt-20 f-25 btn-lg" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">登録</button>
+    </form>
+    
+    <p class="mt-20 text-center privacy_link"><%= link_to "プライバシーポリシー", "/" %></p>
+    
 
 
 
