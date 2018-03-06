@@ -33,6 +33,7 @@ header{
        top: 100%;
        left: 50%;
       margin-left: -60px;
+      margin-top:-3px;
        border: 60px solid transparent;
        border-top: 35px solid #3267B4;
 }
@@ -179,7 +180,7 @@ header{
     background:#E88C57;padding: 15px 60px 15px 60px!important;border-radius: 30px!important;		/* CSS3草案 */-webkit-border-radius: 30px!important;	/* Safari,Google Chrome用 */-moz-border-radius: 30px!important;
 }
 #btn-header_sp{
-    background:#E88C57;padding: 15px 60px 15px 60px!important;height:120px;margin-top:-25px;border-radius: 0px!important;		/* CSS3草案 */-webkit-border-radius: 0px!important;	/* Safari,Google Chrome用 */-moz-border-radius: 0px!important;
+    background:#E88C57;padding: 15px 60px 15px 60px!important;height:80px;margin-top:-65px;border-radius: 0px!important;		/* CSS3草案 */-webkit-border-radius: 0px!important;	/* Safari,Google Chrome用 */-moz-border-radius: 0px!important;
 }
 btn-header a{
     font-size:14px;
