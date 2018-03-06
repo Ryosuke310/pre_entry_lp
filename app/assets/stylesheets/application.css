@@ -186,7 +186,7 @@ btn-header a{
     font-size:14px;
 }
 .btn_tron{
-    background:#E88C57;padding: 20px 100px 20px 100px!important; border-radius: 35px!important;		/* CSS3草案 */-webkit-border-radius: 35px!important;	/* Safari,Google Chrome用 */-moz-border-radius: 35px!important;
+    background:#E88C57;padding: 15px 100px 15px 100px!important; border-radius: 55px!important;		/* CSS3草案 */-webkit-border-radius: 55px!important;	/* Safari,Google Chrome用 */-moz-border-radius: 55px!important;
 }
 .btn_tron a{
     font-size:20px;
@@ -278,6 +278,9 @@ padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30p
 
 
 /*汎用CSS*/
+.mb-5{
+    margin-bottom:5px!important;
+}
 .mb-10{
     margin-bottom:10px!important;
 }
@@ -689,4 +692,36 @@ padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30p
     background: #2EBC99;
 }
 
+#menu div {
+  position: relative;
+}
 
+.arrow_box {
+      text−align:canter;
+  margin:0 auto;
+  display: none;
+  position: absolute;
+  padding: 16px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;  
+  border-radius: 8px;
+  background: #333;
+  color: #fff;
+}
+
+.arrow_box:after {
+  text−align:canter;
+  margin:0 auto;
+  position: absolute;
+  bottom: 100%;
+  left: 80%;
+  width: 0;
+  height: 0;
+  margin-left: -10px;
+  border: solid transparent;
+  border-color: rgba(51, 51, 51, 0);
+  border-bottom-color: #333;
+  border-width: 10px;
+  pointer-events: none;
+  content: " ";
+}
