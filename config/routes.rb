@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   get '/pre' => "home#pre"
   get '/pre/sp' => "home#sp"
   get '/pre/form' => "home#form"
+  get '/pre/privacy' => "home#privacy"
   get '/thanks' => "home#thanks"
 end

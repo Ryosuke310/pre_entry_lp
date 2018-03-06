@@ -18,6 +18,10 @@ class HomeController < ApplicationController
   def thanks
     
   end
+
+  def privacy
+    
+  end
   
   
 end
