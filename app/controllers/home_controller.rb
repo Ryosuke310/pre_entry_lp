@@ -1,9 +1,9 @@
 class HomeController < ApplicationController
   def index
-    redirect_to "/form"
+    redirect_to "/pre/form"
   end
   
-  def top
+  def pre
     
   end
   
