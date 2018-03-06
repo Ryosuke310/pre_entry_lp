@@ -1,8 +1,8 @@
 
 <div class="form_body">
 
-    <!--<h2 class="text-center mb-60 f-50">事前登録フォーム</h2>-->
-    <img src="/image/BLAM_logo.png" class="text-center mb-60" style="width:300px">
+    <!--<h2 class="text-center mb-40 f-50">事前登録フォーム</h2>-->
+    <pclass="text-center mb-40" style="text-align:center"><img src="/image/BLAM_logo.png" style="width:300px"></p>
      
     
     <form class="formrun text-center form-style-6" action="https://form.run/api/v1/r/lglp0ynt8icldmu96k0plw3r" method="post">
@@ -10,12 +10,12 @@
             <input name="お名前"  type="hidden"value=<%= current_user.name %> data-formrun-required>
           </div>
           <div class="form-group">
-            <label class="f-30">メールアドレス [必須]</label>
-            <input name="メールアドレス" type="text" value= <%= current_user.email %> data-formrun-type="email" data-formrun-required>
+            <!--<label class="f-30">メールアドレス [必須]</label>-->
+            <input name="メールアドレス" type="text" value= <%= current_user.email %> placeholder="メールアドレス" data-formrun-type="email" data-formrun-required>
           </div>
       <div class="form-group">
-        <label class="f-30">お勤め先 [必須]</label>
-        <input name="お勤め先" type="text" data-formrun-required></input>
+        <!--<label class="f-30">お勤め先 [必須]</label>-->
+        <input name="お勤め先" type="text" placeholder="お勤め先（必須）" data-formrun-required></input>
       </div>
     
       <div class="form-group">
