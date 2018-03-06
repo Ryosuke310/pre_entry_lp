@@ -12,7 +12,7 @@ header{
     background: rgba(255,255,255,0.99);
 }
 
-.jumbotron {background:linear-gradient(rgba(0, 0, 0, 0.6) 80%, rgba(0, 0, 0, 0.6) 100%, rgba(128, 128, 128, 1)),url(/image/eyecatch2.jpg); background-size: cover; height:530px; margin-bottom:0!important;}
+.jumbotron {background:url(/image/img_eyecatch.png); background-size: cover; height:600px; margin-bottom:0!important;}
 
     /* 吹き出し */
 .balloon1 {
@@ -48,7 +48,7 @@ header{
        min-width: 120px;
         max-width: 100%;
        font-size: 16px;
-       background: #EBF1F5;
+       background: #E9EFF9;
 }
 .balloon2:before{
        content: "";
@@ -169,7 +169,7 @@ header{
     color:black!important;
 }
 #btn-point{
-    background:#3267B4;padding: 5px 20px 5px 20px;/* CSS3草案 */-webkit-border-radius: 20px;	/* Safari,Google Chrome用 */-moz-border-radius: 20px;
+    background:#3267B4;padding: 5px 20px 5px 20px;/* CSS3草案 */-webkit-border-radius: 20px;	/* Safari,Google Chrome用 */-moz-border-radius: 20px; 
 }
 #btn-20{
    margin-bottom:20px;background:#E88C57;padding: 12px 50px 12px 50px;border-radius: 25px;		/* CSS3草案 */-webkit-border-radius: 25px;	/* Safari,Google Chrome用 */-moz-border-radius: 25px;
@@ -196,10 +196,10 @@ header{
     /* CSS3草案 */-webkit-border-radius: 10px;	/* Safari,Google Chrome用 */-moz-border-radius: 10px;background:white;padding:20px 20px 20px 20px!important; 
 }
 .radiousbox1{
-    margin:0 90px 0 90px;padding:50px 50px 50px 50px;border:2px solid white;border-radius: 50px;		/* CSS3草案 */-webkit-border-radius: 50px;	/* Safari,Google Chrome用 */-moz-border-radius: 10px;
+    margin:0 90px 0 90px;padding:50px 50px 50px 50px;border:2px solid white;
 }
 .radiousbox2{
-padding:50px 15px 50px 15px!important;/* CSS3草案 */-webkit-border-radius: 30px;	/* Safari,Google Chrome用 */-moz-border-radius: 30px;border:5px solid #F8E31C;
+padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30px;	/* Safari,Google Chrome用 */-moz-border-radius: 30px; border:5px solid #F8E31C!important;
 }
 
 /* 画面外にいる状態 */
@@ -456,10 +456,10 @@ padding:50px 15px 50px 15px!important;/* CSS3草案 */-webkit-border-radius: 30p
     background-color:#F8E71C!important;
 }
 .c-rb{
-    color:#EBF1F5!important;
+    color:#E9EFF9!important;
 }
 .bc-rb{
-    background-color:#EBF1F5!important;
+    background-color:#E9EFF9!important;
 }
 .c-db{
     color:#18355F!important;
