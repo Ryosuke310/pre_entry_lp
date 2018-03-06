@@ -201,7 +201,7 @@ btn-header a{
     padding:5px 12px 5px 12px!important; background:#1060D6!important;
 }
 .btn_form{
-     background:#1060D6!important; border:1px solid #1060D6;
+     background:#1060D6!important; border:1px solid #1060D6; width:309px!important;
 }
 #white_contain{
     /* CSS3草案 */-webkit-border-radius: 10px;	/* Safari,Google Chrome用 */-moz-border-radius: 10px;background:white;padding:30px 20px 30px 20px!important; 
@@ -264,8 +264,8 @@ padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30p
   width: 463px;
   height: 65px;
   overflow: scroll;
-  background:#37383D;
-  color:white;
+  /*background:#37383D;*/
+  /*color:white;*/
 }
 .privacy_link a{
     color:gray;
