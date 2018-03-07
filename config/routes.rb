@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   get '/pre/sp' => "home#sp"
   get '/pre/form' => "home#form"
   get '/pre/privacy' => "home#privacy"
-  get '/thanks' => "home#thanks"
+  get '/pre/thanks' => "home#thanks"
 end
