@@ -278,7 +278,7 @@ padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30p
   color:white;
 }
 .privacy_link a{
-    color:gray;
+    color:black!important;
 }
 .privacy_link a:hover{
     text-decoration:none;
