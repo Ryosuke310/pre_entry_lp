@@ -271,7 +271,7 @@ padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30p
 .privacy {
   border:1px solid;
   padding:20px 0 20px 0;
-  width: 463px;
+  /*width: 463px;*/
   height: 65px;
   overflow: scroll;
   /*background:#37383D;*/
