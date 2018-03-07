@@ -13,8 +13,14 @@
                     <input class="form-control form-control-lg" name="お名前"  type="hidden"value=<%= current_user.name %> data-formrun-required>
                   </div>
                   <div class="form-group">
-                    <!--<label class="f-30">メールアドレス [必須]</label>-->
+                    <div class="row">
+                    <div class="col-6">
+                    <label class="f-30">メールアドレス [必須]</label>
+                    </div>
+                    <div class="col-6">
                     <input class="form-control form-control-lg" name="メールアドレス" type="text" value= <%= current_user.email %> placeholder="メールアドレス" data-formrun-type="email" data-formrun-required>
+                    </div> 
+                    </div>
                   </div>
               <div class="form-group">
                 <!--<label class="f-30">お勤め先 [必須]</label>-->
