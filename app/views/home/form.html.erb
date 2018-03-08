@@ -53,7 +53,7 @@
                             <option value="デザイナー">デザイナー</option>
                             <option value="other">その他</option>
                         </select>
-                        <input class="form-control form-control-lg" id="tr_writer" name="職種" placeholder="職種を入力" type="text" value="" data-formrun-required required></input>
+                        <input class="form-control form-control-lg" id="tr_writer" name="職種" placeholder="職種を入力" type="text" style="display: none;" data-formrun-required required></input>
                   </div>
                   <div class="col-1"></div>
                  </div>
@@ -92,8 +92,8 @@
 
 <script type="text/javascript">
 $(function(){
-  $('#tr_type select[name="type"]').change(function() {
-    if ($('select[name="type"] option:selected').val() == 'other') $('#tr_writer').css('display','table-row');
+  $('#tr_type select[name="職種"]').change(function() {
+    if ($('select[name="職種"] option:selected').val() == 'other') $('#tr_writer').css('display','table-row');
     else $('#tr_writer').css('display','none');
   });
 });
