@@ -89,7 +89,29 @@
          <div class="col-1 col-lg-2"></div>  
       </div>
     </div>
-
+<table>
+  <tr id="tr_type">
+    <th>タイプ</th>
+    <td>
+      <select name="type">
+        <option value="movie">映画
+        <option value="book">本
+      </select>
+    </td>
+  </tr>
+  <tr id="tr_title">
+    <th>タイトル</th>
+    <td>
+      <input type="text" name="title" value="" size="20" maxlength="20">
+    </td>
+  </tr>
+  <tr id="tr_writer" style="display: none;">
+    <th>著者</th>
+    <td>
+      <input type="text" name="writer" value="" size="20" maxlength="20">
+    </td>
+  </tr>
+</table>
 <script type="text/javascript">
 $(function(){
   $('#tr_type select[name="type"]').change(function() {
