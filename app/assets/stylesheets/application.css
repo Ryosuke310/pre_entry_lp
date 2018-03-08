@@ -12,7 +12,7 @@ header{
     background: rgba(255,255,255,0.99);
 }
 
-.jumbotron {background:url(/image/img_eyecatch.jpg); background-size: cover; height:680px; margin-bottom:0!important;}
+.jumbotron {background:url(/image/img_eyecatch.jpg); background-size: cover; height:700px; margin-bottom:0!important;}
 .jumb_sp{height:1000px!important;}
     /* 吹き出し */
 .balloon1 {
