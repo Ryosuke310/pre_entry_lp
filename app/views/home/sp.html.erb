@@ -36,6 +36,7 @@ body{
                         <h2 class="display-4 text-center c-w f-44 f-b pb-50 mb-30" style="border-bottom:8px solid white;">100年時代を<span class="f-50 f-b">ワクワク働く</span>ための<br>成長プラットフォーム</h2>
                         <p class="c-w f-28 pt-20 f-b mb-40">今だけ事前登録した人から<br>優先的に給料前払い！</p>
                         <p class="fly mx-auto"id = "register_top"><%= link_to image_tag('/image/register.png', { :border => '0', :alt => '事前登録'}), user_facebook_omniauth_authorize_path %></p>
+                        <p class="f-18 c-w">※カイコクへの登録はFacebook上に表示されません。</p>
                     </div>
                 </div>
                 <div class="col-2"></div>
@@ -201,7 +202,8 @@ body{
                 <div class="row" style="background:url(/image/image_footer_sp.jpg)">
                     <div class="col-12 text-center mb-50">
                         <h2 class="f-b mt-50 mb-30 f-40">今すぐ事前登録をしよう！！</h2>
-                        <p class="mt-20 mb-40 fly" id = "register_bottom"><%= link_to image_tag('/image/register.png', { :border => '0', :alt => '事前登録'}), user_facebook_omniauth_authorize_path %></p>
+                        <p class="fly" id = "register_bottom"><%= link_to image_tag('/image/register.png', { :border => '0', :alt => '事前登録'}), user_facebook_omniauth_authorize_path %></p>
+                        <p class="f-18 c-w mt-20 mb-40">※カイコクへの登録はFacebook上に表示されません。</p>
                         <p class=" f-35">事前登録した人から優先的に給料を前払い！！</p>
                         <p class=" f-35">さらにカイコクの最新情報を受け取ることができます。</p>
                     </div>
