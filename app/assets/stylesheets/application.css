@@ -627,6 +627,9 @@ padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30p
 .line-h-40{
     line-height:40px!important;
 }
+.line-h-50{
+    line-height:50px!important;
+}
 .line-h-60{
     line-height:60px!important;
 }
