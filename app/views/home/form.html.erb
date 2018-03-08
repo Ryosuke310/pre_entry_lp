@@ -6,7 +6,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-1 col-lg-2"></div>
-        <div class="col-9 col-lg-8" style="backgroud:black; box-shadow: 2px 2px 4px;">
+        <div class="col-9 col-lg-8" style="backgroud:black;">
             <h2 class="text-center mb-40 f-40 mt-50">事前登録フォーム</h2>
             <form class="formrun text-center form-style-6" action="https://form.run/api/v1/r/lglp0ynt8icldmu96k0plw3r" method="post">
                   <div>
@@ -14,30 +14,30 @@
                   </div>
                   <div class="form-group mt-50">
                     <div class="row">
-                      <div class="col-4 text-left">
-                        <label class="f-18">メールアドレス [必須]</label>
+                      <div class="col-5 text-left">
+                        <label class="f-24">メールアドレス [必須]</label>
                       </div>
-                      <div class="col-8">
+                      <div class="col-7">
                         <input class="form-control form-control-lg" name="メールアドレス" type="text" value= <%= current_user.email %> placeholder="メールアドレス" data-formrun-type="email" data-formrun-required>
                       </div> 
                     </div>
                   </div>
               <div class="form-group mt-30">
                 <div class="row">
-                  <div class="col-4 text-left">
-                    <label class="f-18">お勤め先 [必須]</label>
+                  <div class="col-5 text-left">
+                    <label class="f-24">お勤め先 [必須]</label>
                   </div>
-                  <div class="col-8">
+                  <div class="col-7">
                     <input class="form-control form-control-lg" name="お勤め先" type="text" placeholder="お勤め先（必須）" data-formrun-required></input>
                   </div>
                 </div>
               </div>
               <div class="form-group mt-35">
                 <div class="row">
-                  <div class="col-4 text-left">
-                        <label class="f-18">職種 [必須]</label>
+                  <div class="col-5 text-left">
+                        <label class="f-24">職種 [必須]</label>
                   </div>
-                  <div class="col-8">
+                  <div class="col-7">
                         <select class="form-control form-control-lg" id="inputState" name="職種" type="text" data-formrun-required size="1">
                             <option value="デジタルマーケター">デジタルマーケター</option>
                             <option value="ディレクター">ディレクター</option>
@@ -61,7 +61,7 @@
             
               <div class="mt-20 form-check form-check-inline mx-auto">
                 <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                <label class="form-check-label" for="inlineCheckbox1">上記の内容に同意する</label>
+                <label class="form-check-label f-24" for="inlineCheckbox1">上記の内容に同意する</label>
               </div>
               <br>
               <button type="submit" class="btn btn-info btn_form mt-40 f-25 btn-lg" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">登録</button>
