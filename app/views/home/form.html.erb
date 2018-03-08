@@ -46,13 +46,14 @@
                         <label class="f-24 line-h-50">職種 [必須]</label>
                   </div>
                   <div class="col-6">
-                        <input type="text" name="職種"class="form-control form-control-lg" list="inputState" placeholder="職種を選択もしくは直接入力" data-formrun-required required>
-                          <datalist id="inputState">
+                        <select class="form-control form-control-lg" id="inputState" name="職種" data-formrun-required required>
                             <option value="デジタルマーケター">デジタルマーケター</option>
                             <option value="ディレクター">ディレクター</option>
                             <option value="エンジニア">エンジニア</option>
                             <option value="デザイナー">デザイナー</option>
-                        </detalist>
+                            <option value="その他" id="tr_title">その他</option>
+                        </select>
+                        <input class="form-control form-control-lg" name="職種" placeholder="職種を入力" type="text" value="" data-formrun-required required></input>
                   </div>
                   <div class="col-1"></div>
                  </div>
@@ -89,6 +90,13 @@
       </div>
     </div>
 
-
+<script type="text/javascript">
+$(function(){
+  $('#tr_type select[name="type"]').change(function() {
+    if ($('select[name="type"] option:selected').val() == 'book') $('#tr_writer').css('display','table-row');
+    else $('#tr_writer').css('display','none');
+  });
+});
+</script>
 
 </body>
