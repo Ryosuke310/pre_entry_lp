@@ -21,7 +21,7 @@
             <div class="col-6 header-bk">
               <div class="container-fluid">
                 <div class="row" style="display: flex; align-items: center;">
-                  <div class="col-12 text-right pr-50 mt--10"><button type="button" class="btn btn-danger bc-y fly change" id="btn-header"><img src="/image/fb.png"style="width:20px; margin-left:-50px;margin-right:30px;padding-bottom:2px">　<%= link_to "今すぐ登録", user_facebook_omniauth_authorize_path %></button></div>
+                  <div class="col-12 text-right pr-50 mt--10 fly"><%= link_to image_tag('/image/register_h.png', { :border => '0', :alt => '事前登録',}), user_facebook_omniauth_authorize_path %></div>
                 </div>
               </div>
             </div>
@@ -42,7 +42,8 @@
                     <div class="radiousbox1">
                         <h2 class="display-4 text-center c-w pb-30 f-32 mt-10" style="border-bottom:4px solid white"><span class="f-42 f-b">もったいない時間</span>を<br>パラレルキャリアで有効活用できるサービス</h2>
                         <p class="c-w f-24 mt-25 mb-40">今だけ事前登録した人から優先的に給料前払い！</p>
-                        <button type="button" class="btn btn-danger bc-y btn_tron fly change"><img src="/image/fb.png" class="mb-10"style="width:40px;margin-left:-80px;margin-right:40px;padding-top:5px">　<%= link_to "今すぐ登録", user_facebook_omniauth_authorize_path %></button>
+                        <!--<button type="button" class="btn btn-danger bc-y btn_tron fly change"><img src="/image/fb.png" class="mb-10"style="width:40px;margin-left:-80px;margin-right:40px;padding-top:5px">　<%= link_to "今すぐ登録", user_facebook_omniauth_authorize_path %></button>-->
+                        <p class="fly"><%= link_to image_tag('/image/register.png', { :border => '0', :alt => '事前登録'}), user_facebook_omniauth_authorize_path %></p>
                     </div>
                 </div>
                 <div class="col-2"></div>
@@ -177,8 +178,8 @@
                     <div class="col-4">
                         <div class="row">
                             <div class="col-10">
-                                <div class="card" style="width: 17rem;height:580px">
-                                            <img class="card-img-top mt-30 pl-30 pr-30" src="/image/now.png" style="height:230px">
+                                <div class="card" style="width: 17rem;height:540px">
+                                            <img class="card-img-top mt-30 pl-30 pr-30" src="/image/now.png" style="height:200px">
                                             <div class="card-body h-230 pl-30 pr-30">
                                               <button type="button" class="btn btn-primary btn_card mb-20 pr-10 pl-10 f-14 mt-30" style="border:1px solid #1060D6!important">現在</button>
                                               <h6 class="mb-10 f-18 f-b">一つの会社で毎日残業3時間</h6>
@@ -190,14 +191,14 @@
                                             </div>
                                 </div>
                             </div>
-                            <div class="col-2 text-right" style="line-height:450px; padding-left:35px"><i class="fas fa-caret-right fa-3x c-b"></i></div>
+                            <div class="col-2 text-right" style="line-height:580px; padding-left:35px"><i class="fas fa-caret-right fa-4x c-b"></i></div>
                         </div>
                     </div>
                     <div class="col-4">
                         <div class="row">
                             <div class="col-10">
-                                <div class="card" style="width: 17rem;height:580px">
-                                            <img class="card-img-top mt-30 pl-30 pr-30" src="/image/next.png" style="height:230px">
+                                <div class="card" style="width: 17rem;height:540px">
+                                            <img class="card-img-top mt-30 pl-30 pr-30" src="/image/next.png" style="height:200px">
                                             <div class="card-body h-230 pl-30 pr-30">
                                               <button type="button" class="btn btn-primary btn_card mb-20 pr-10 pl-10 f-14 mt-30" style="border:1px solid #1060D6!important">今後</button>
                                               <h6 class="mb-10 f-18 f-b">残業を削り、別のワークをする</h6>
@@ -209,14 +210,14 @@
                                             </div>
                                 </div>
                             </div>
-                            <div class="col-2 text-right" style="line-height:450px; padding-left:35px"><i class="fas fa-caret-right fa-3x text-right c-b"></i></div>
+                            <div class="col-2 text-right" style="line-height:580px; padding-left:35px"><i class="fas fa-caret-right fa-4x text-right c-b"></i></div>
                         </div>
                     </div>
                     <div class="col-4">
                         <div class="row">
                             <div class="col-10">
-                                <div class="card" style="width: 17rem;height:580px">
-                                            <img class="card-img-top mt-30 pl-30 pr-30" src="/image/future.png" style="height:230px">
+                                <div class="card" style="width: 17rem;height:540px">
+                                            <img class="card-img-top mt-30 pl-30 pr-30" src="/image/future.png" style="height:200px">
                                             <div class="card-body h-230 pl-30 pr-30">
                                               <button type="button" class="btn btn-primary btn_card mb-20 pr-10 pl-10 f-14 mt-30" style="border:1px solid #1060D6!important">将来</button>
                                               <h6 class="mb-10 f-18 f-b">複数の仕事をすることにより本業を効率化させ成果を出す</h6>
@@ -244,7 +245,7 @@
                     <div class="col-2"></div>
                     <div class="col-8 text-center mb-70">
                         <h2 class="mb-40 mt-60 f-32">今すぐ事前登録をしよう</h2>
-                        <button type="button" class="btn btn-danger bc-y mb-30 btn_tron fly change"><img src="/image/fb.png" class="mb-10"style="width:40px;margin-left:-80px;margin-right:40px;padding-top:5px">　<%= link_to "今すぐ登録", user_facebook_omniauth_authorize_path %></button>
+                        <p class="mb-30 fly"><%= link_to image_tag('/image/register.png', { :border => '0', :alt => '事前登録'}), user_facebook_omniauth_authorize_path %></p>
                         <p class="f-18">事前登録した人から優先的に給料を前払い！！<br>さらにカイコクの最新情報を受け取ることができます。</p>
                     </div>
                     <div class="col-2"></div>
@@ -252,7 +253,7 @@
                 <div class="row mp-50">
                     <div class="col-2"></div>
                     <div class="col-4 text-left pb-20" style="border-bottom:1px solid white">
-                        <p class="f-16 f-b"><span class="c-p">></span>　お問い合わせ</p>
+                        <p class="f-16 f-b"><a href="http://blam.co.jp/contact" style="color:white"><span class="c-p">></span>　お問い合わせ</a></p>
                         <p class="f-14">サービスに関するお問い合わせは、上記からお願いいたします。</p>
                     </div>
                     <div class="col-4 text-left pb-20" style="border-bottom:1px solid white">
