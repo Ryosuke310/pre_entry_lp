@@ -8,7 +8,7 @@
             <div class="col-6 header-bk">
               <div class="container-fluid">
                 <div class="row" style="display: flex; align-items: center;">
-                  <div class="col-12 text-right pr-50 mt--10 fly"id = "register_header"><%= link_to image_tag('/image/register_h.png', { :border => '0', :alt => '事前登録',}), user_facebook_omniauth_authorize_path %></div>
+                  <div class="col-12 text-right pr-50 mt--10 fly"><%= link_to image_tag('/image/register_h.png', { :border => '0', :alt => '事前登録', :id => "register_header"}), user_facebook_omniauth_authorize_path %></div>
                 </div>
               </div>
             </div>
@@ -29,7 +29,7 @@
                     <div class="radiousbox1">
                         <h2 class="display-4 text-center c-w pb-30 f-32 mt-10" style="border-bottom:4px solid white">100年時代を<span class="f-42 f-b">ワクワク働く</span>ための<br>成長プラットフォーム</h2>
                         <p class="c-w f-24 mt-25 mb-40">今だけ事前登録した人から優先的に給料前払い！</p>
-                        <p class="fly" id = "register_top"><%= link_to image_tag('/image/register.png', { :border => '0', :alt => '事前登録'}), user_facebook_omniauth_authorize_path %></p>
+                        <p class="fly"><%= link_to image_tag('/image/register.png', { :border => '0', :alt => '事前登録', :id => "register_top"}), user_facebook_omniauth_authorize_path %></p>
                         <p class="f-14 c-w">※カイコクへの登録はFacebook上に表示されません。</p>
                     </div>
                 </div>
@@ -232,7 +232,7 @@
                     <div class="col-2"></div>
                     <div class="col-8 text-center mb-70">
                         <h2 class="mb-40 mt-60 f-32">今すぐ事前登録をしよう</h2>
-                        <p class="fly" id = "register_bottom"><%= link_to image_tag('/image/register.png', { :border => '0', :alt => '事前登録'}), user_facebook_omniauth_authorize_path %></p>
+                        <p class="fly"><%= link_to image_tag('/image/register.png', { :border => '0', :alt => '事前登録', :id => "register_bottom"}), user_facebook_omniauth_authorize_path %></p>
                         <p class="mb-30 f-14 c-w">※カイコクへの登録はFacebook上に表示されません。</p>
                         <p class="f-18">事前登録した人から優先的に給料を前払い！！<br>さらにカイコクの最新情報を受け取ることができます。</p>
                     </div>
