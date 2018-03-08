@@ -1,6 +1,6 @@
 body{
     font-family: "Lucida Grande", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif!important;
-    padding-top: 70px;
+    padding-top: 80px;
 }
 header{
     width:100%;
@@ -12,7 +12,7 @@ header{
     background: rgba(255,255,255,0.99);
 }
 
-.jumbotron {background:url(/image/img_eyecatch.jpg); background-size: cover; height:640px; margin-bottom:0!important;}
+.jumbotron {background:url(/image/img_eyecatch.jpg); background-size: cover; height:680px; margin-bottom:0!important;}
 .jumb_sp{height:1000px!important;}
     /* 吹き出し */
 .balloon1 {
