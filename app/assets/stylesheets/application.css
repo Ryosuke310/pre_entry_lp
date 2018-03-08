@@ -433,6 +433,9 @@ padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30p
 .pr-30{
     padding-right:30px!important;
 }
+.pt-40{
+    padding-top:40px!important;
+}
 .pt-50{
     padding-top:50px!important;
 }
