@@ -715,3 +715,6 @@ padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30p
     border-radius: 3px;
     background:white;
 }
+.hidden{
+    display:none;
+}
