@@ -223,7 +223,7 @@ header{
     /* CSS3草案 */-webkit-border-radius: 10px;	/* Safari,Google Chrome用 */-moz-border-radius: 10px;background:white;padding:20px 20px 20px 20px!important; width:600px;
 }
 .radiousbox1{
-    margin:0 90px 0 90px;padding:50px 40px 50px 40px;border:4px solid white;
+    margin:0 90px 0 90px;padding:50px 50px 50px 50px;border:4px solid white;
 }
 .radiousbox1_sp{
     margin:0 90px 0 90px;padding:50px 50px 50px 50px;border:8px solid white;
@@ -519,6 +519,9 @@ padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30p
 }
 .f-30{
     font-size:30px!important;
+}
+.f-31{
+    font-size:31px!important;
 }
 .f-32{
     font-size:32px!important;
