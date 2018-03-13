@@ -17,12 +17,11 @@ header{
     /* 吹き出し */
 .balloon1 {
         position: relative;
-      
+        min-width: 120px;
+        max-width: 100%;
         margin: 1.5em 0;
        padding: 20px 10px;
-       min-width: 120px;
-        max-width: 100%;
-        color: white;
+       color: white;
        font-size: 16px;
        background: #3267B4;
 }
@@ -43,13 +42,13 @@ header{
 /* 吹き出し */
 .balloon2 {
         position: relative;
-      z-index:-100;
-        margin: 1.5em 0;
-       padding: 140px 5px 60px 0;
-       min-width: 120px;
+        min-width: 120px;
         max-width: 100%;
-       font-size: 16px;
-       background: #E9EFF9;
+        margin: 1.5em 0;
+        padding: 140px 5px 60px 0;
+        font-size: 16px;
+        background: #E9EFF9;
+        z-index:-100;
 }
 .balloon2:before{
        content: "";
@@ -82,8 +81,8 @@ header{
     color:black;
 }
 .box2 {
-    padding: 2.5em 1em;
     margin: 2em 0;
+    padding: 2.5em 1em;
     font-weight: bold;
     color: black;/*文字色*/
     background: #FFF;
@@ -96,12 +95,12 @@ header{
 }
 
 .balloon3 {
+     min-width: 120px;
+    max-width: 100%;
     position: relative;
   display:inline-block;
     margin: 1.5em 0 3.5em 0;
    padding: 5px 25px;
-   min-width: 120px;
-    max-width: 100%;
     color: white;
    font-size: 16px;
    background: blue;

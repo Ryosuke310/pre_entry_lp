@@ -1,14 +1,17 @@
-<head>
-  <title>カイコク｜申込み完了【事前登録】</title>
-  <script type="text/javascript"> 
+  <% content_for :library do %>
+    <title>カイコク｜申込み完了【事前登録】</title>
+    <script type="text/javascript"> 
   window.dataLayer = window.dataLayer || [];
   dataLayer.push({
-    email: <%= current_user.email %>,
-    facebookId: <%= current_user.uid %>,
+    email: "#メールアドレス#",
+    facebookId: "#FacebookID#",
+    company: "#勤め先#",
+    occupation: "#職種#",
     event: "setUserData"
   });
 </script>
-</head>
+  <% end %> 
+
 
 
 <h2 class="text-center f-b mb-50">ご登録ありがとうございました。</h2>
