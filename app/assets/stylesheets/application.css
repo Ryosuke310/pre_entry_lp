@@ -175,9 +175,8 @@ header{
 .white_contain2_sp{
     width:100%;
     height:80px;
-   -webkit-border-radius: 30px;-moz-border-radius: 30px;
+   -webkit-border-radius: 15px;-moz-border-radius: 15px;
    background:white;
-   padding:20px!important;
 }
 .radiousbox1{
     width: 720px;
