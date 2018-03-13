@@ -683,3 +683,7 @@ header{
 .hidden{
     visibility: hidden;
 }
+.card_arrow{
+    margin-top: -300px;
+    margin-right: -25px;
+}
