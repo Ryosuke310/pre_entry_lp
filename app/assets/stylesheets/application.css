@@ -245,7 +245,61 @@ header{
     text-decoration:none;
     color:black;
 }
+.form-style-6{
+    background:white!important;
+}
+.form_body{
+    backgroud:#F7F7F7;
+}
+#menu div {
+  position: relative;
+}
 
+.arrow_box {
+  position: absolute;
+  display: none;
+  margin:0 auto;
+  padding: 16px;
+ text−align:canter;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;  
+  border-radius: 8px;
+  background: #333;
+  color: #fff;
+}
+
+.arrow_box:after {
+  margin:0 auto;
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 100%;
+  left: 80%;
+  margin-left: -10px;
+  text−align:canter;
+  border: solid transparent;
+  border-color: rgba(51, 51, 51, 0);
+  border-bottom-color: #333;
+  border-width: 10px;
+  pointer-events: none;
+  content: " ";
+}
+.form-body{
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-radius: 3px;
+    background:white;
+}
+.hidden{
+    visibility: hidden;
+}
+.card_arrow{
+    margin-top: -300px;
+    margin-right: -25px;
+}
+.fotter_w_line{
+    border-bottom:1px solid white;
+}
 /*汎用CSS*/
 .w-120{
     width: 120px!important
@@ -672,63 +726,4 @@ header{
 }
 .z-10{
     z-index: 10;
-}
-
-
-
-
-.form-style-6{
-    background:white!important;
-}
-.form_body{
-    backgroud:#F7F7F7;
-}
-#menu div {
-  position: relative;
-}
-
-.arrow_box {
-  position: absolute;
-  display: none;
-  margin:0 auto;
-  padding: 16px;
- text−align:canter;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;  
-  border-radius: 8px;
-  background: #333;
-  color: #fff;
-}
-
-.arrow_box:after {
-  margin:0 auto;
-  position: absolute;
-  width: 0;
-  height: 0;
-  bottom: 100%;
-  left: 80%;
-  margin-left: -10px;
-  text−align:canter;
-  border: solid transparent;
-  border-color: rgba(51, 51, 51, 0);
-  border-bottom-color: #333;
-  border-width: 10px;
-  pointer-events: none;
-  content: " ";
-}
-.form-body{
-    border: 1px solid;
-    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
-    border-radius: 3px;
-    background:white;
-}
-.hidden{
-    visibility: hidden;
-}
-.card_arrow{
-    margin-top: -300px;
-    margin-right: -25px;
-}
-.fotter_w_line{
-    border-bottom:1px solid white;
 }
