@@ -11,7 +11,6 @@ header{
     top:0;
     background: rgba(255,255,255,0.99);
 }
-
 .jumbotron {background:url(/image/img_eyecatch.jpg); background-size: cover; height:700px; margin-bottom:0!important;}
 .jumb_sp{height:1000px!important;}
     /* 吹き出し */
@@ -160,69 +159,6 @@ header{
 	display: inline-block; 
 	box-shadow: 0px 5px 15px -5px rgba(0, 0, 0, 0.8)!important; /*横方向　下方向　ぼかし　広がり　色 */
 }
-
-/*ボタン系*/
-/*.btn{*/
-/*    border: 1px solid #F8E31C!important;*/
-/*}*/
-/*.btn a{*/
-/*    color:black!important;*/
-/*}*/
-/*#btn-point{*/
-/*    padding: 5px 20px 5px 20px;*/
-/*    background:#1060D6; */
-/*    border: 1px solid #1060D6;*/
-    /*border-radius: 30px!important;-webkit-border-radius: 30px!important;-moz-border-radius: 30px!important; */
-/*}*/
-/*#btn-20{*/
-/*   margin-bottom:20px;*/
-/*   padding: 12px 50px 12px 50px;*/
-/*   background:#E88C57;*/
-/*   border-radius: 25px!important;-webkit-border-radius: 25px!important;	-moz-border-radius: 25px!important;*/
-/*}*/
-/*#btn-header{*/
-/*    padding: 15px 60px 15px 60px!important;*/
-/*    background:#E88C57;*/
-/*    border-radius: 30px!important;-webkit-border-radius: 30px!important;-moz-border-radius: 30px!important;*/
-/*}*/
-/*#btn-header_sp{*/
-/*    height:80px;*/
-/*    margin-top:-65px;*/
-/*    padding: 15px 60px 15px 60px!important;*/
-/*    background:#E88C57;*/
-/*    border-radius: 0px!important;-webkit-border-radius: 0px!important;-moz-border-radius: 0px!important;*/
-/*}*/
-/*#btn-header:hover  {*/
-/*  opacity: 0.3;*/
-/*  filter: alpha(opacity=60);*/
-/*}*/
-/*.btn_tron{*/
-/*    padding: 15px 100px 15px 100px!important;*/
-/*    background:#E88C57;*/
-/*    border-radius: 55px!important;-webkit-border-radius: 55px!important;-moz-border-radius: 55px!important;*/
-/*}*/
-/*.btn_tron a{*/
-/*    font-size:20px;*/
-/*}*/
-/*.btn_tron_sp{*/
-/*    background:#E88C57;padding: 15px 100px 15px 100px!important; border-radius: 55px!important;-webkit-border-radius: 55px!important;-moz-border-radius: 55px!important;*/
-/*}*/
-/*.btn_tron_sp a{*/
-/*    font-size:20px;*/
-/*}*/
-/*.btn_tron:hover {*/
-/*  opacity: 0.9;*/
-/*  filter: alpha(opacity=90);*/
-/*}*/
-/*#btn_footer{*/
-    /*background:#E88C57;padding: 12px 100px 12px 100px;border-radius: 25px;-webkit-border-radius: 40px;-moz-border-radius: 4px;*/
-/*}*/
-/*#btn_footer a{*/
-/*    font-size:40px;*/
-/*}*/
-/*.btn_card{*/
-/*    padding:5px 12px 5px 12px!important; background:#1060D6!important;*/
-/*}*/
 .btn_form{
      background:#1060D6!important; border:1px solid #1060D6; width:309px!important;
 }

@@ -9,47 +9,52 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <script src="https://sdk.form.run/js/v2/formrun.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-        <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <%= yield :thanks %>
-      <!-- Google Tag Manager -->
-      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <%= yield :thanks %>
+  <!-- Google Tag Manager -->
+  <script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-M8LZ46S');</script>
-      <!-- End Google Tag Manager -->
-      <!-- Google Optimize -->
-      <script>
+      })(window,document,'script','dataLayer','GTM-M8LZ46S');
+  </script>
+  <!-- End Google Tag Manager -->
+  <!-- Google Optimize -->
+  <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
         ga('create', 'UA-68429445-3', 'auto');
         ga('require', 'GTM-KW8F7WB');
-      </script>
-      <!-- End Google Optimize -->
-    <!--FBOGP-->
-    <meta property="og:title" content="もったいない時間をワクワク働くためのパラレルワーク支援サービス">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://kaikoku.blam.co.jp/pre">
-    <meta property="og:image" content="https://kaikoku.blam.co.jp/image/ogp02.png">
-    <meta property="og:description" content="今の仕事を一生懸命やるだけで良いのか？という漠然とした不安や現状の「はたらく」への退屈感の解消、さらなるチャレンジ欲求に応える「パラレルワーク」を提供・サポートする成長プラットフォーム「カイコク」の事前登録ページです。">
-    <meta property="og:site_name" content="カイコク">
-    <!--TwitterOGP-->
-    <meta name="twitter:card" content="summary_large_image"> 
-    <meta name="twitter:site" content=""> 
-    </head>
+  </script>
+  <!-- End Google Optimize -->
+  <!--FBOGP-->
+  <meta property="og:title" content="もったいない時間をワクワク働くためのパラレルワーク支援サービス">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kaikoku.blam.co.jp/pre">
+  <meta property="og:image" content="https://kaikoku.blam.co.jp/image/ogp02.png">
+  <meta property="og:description" content="今の仕事を一生懸命やるだけで良いのか？という漠然とした不安や現状の「はたらく」への退屈感の解消、さらなるチャレンジ欲求に応える「パラレルワーク」を提供・サポートする成長プラットフォーム「カイコク」の事前登録ページです。">
+  <meta property="og:site_name" content="カイコク">
+  <!--TwitterOGP-->
+  <meta name="twitter:card" content="summary_large_image"> 
+  <meta name="twitter:site" content=""> 
+</head>
 <body>
-      <!-- Google Tag Manager (noscript) -->
-      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M8LZ46S"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-      <!-- End Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M8LZ46S"
+      height="0" width="0" style="display:none;visibility:hidden">
+    </iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
 <%= yield %>
 
