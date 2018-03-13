@@ -3,8 +3,8 @@
     <script type="text/javascript"> 
   window.dataLayer = window.dataLayer || [];
   dataLayer.push({
-    email: <%= current_user.email %>,
-    facebookId: <%= current_user.uid %>,
+    email: "<%= current_user.email %>",
+    facebookId: "<%= current_user.uid %>",
     event: "setUserData"
   });
 </script>
