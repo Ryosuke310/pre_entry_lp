@@ -325,8 +325,14 @@ header{
 .w-card{
     width:20rem!important;
 }
+.mt-5{
+    margin-top:5px!important;
+}
 .mb-5{
     margin-bottom:5px!important;
+}
+.mt-10{
+    margin-top:10px!important;
 }
 .mb-10{
     margin-bottom:10px!important;
