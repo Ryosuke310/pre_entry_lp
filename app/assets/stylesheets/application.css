@@ -186,7 +186,8 @@ header{
     border: 4px solid white;
 }
 .radiousbox1_sp{
-    margin:0 90px;
+    width: 600px;
+    margin: 0 auto;
     padding:50px;
     border:8px solid white;
 }
