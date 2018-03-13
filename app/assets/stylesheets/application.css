@@ -691,6 +691,9 @@ header{
 .pb-150{
     padding-bottom:150px!important;
 }
+.line-h-2{
+    line-height: 2!important;
+}
 .line-h-40{
     line-height:40px!important;
 }
