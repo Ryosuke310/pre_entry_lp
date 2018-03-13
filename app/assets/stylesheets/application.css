@@ -316,6 +316,9 @@ header{
 .mb-70{
     margin-bottom:70px!important;
 }
+.mt-75{
+    margin-top:75px!important;
+}
 .mt-80{
     margin-top:80px!important;
 }
@@ -327,9 +330,6 @@ header{
 }
 .mb--80{
     margin-bottom:-80px!important;
-}
-.mt-80{
-    margin-top:80px!important;
 }
 .mt--85{
     margin-top:-85px!important;
