@@ -71,12 +71,12 @@ header{
 .circle span {
     position: absolute;
     display: inline-block;
+    width :80px;
     left: 35%;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    width :80px;
     text-align:center;
     color:black;
 }
@@ -95,10 +95,10 @@ header{
 }
 
 .balloon3 {
-     min-width: 120px;
-    max-width: 100%;
     position: relative;
   display:inline-block;
+     min-width: 120px;
+    max-width: 100%;
     margin: 1.5em 0 3.5em 0;
    padding: 5px 25px;
     color: white;
@@ -162,73 +162,99 @@ header{
 }
 
 /*ボタン系*/
-.btn{
-    border: 1px solid #F8E31C!important;
-}
-.btn a{
-    color:black!important;
-}
-#btn-point{
-    background:#1060D6; border: 1px solid #1060D6;padding: 5px 20px 5px 20px;border-radius: 30px!important;	/* CSS3草案 */-webkit-border-radius: 30px!important;	/* Safari,Google Chrome用 */-moz-border-radius: 30px!important; 
-}
-#btn-20{
-   margin-bottom:20px;background:#E88C57;padding: 12px 50px 12px 50px;border-radius: 25px!important;		/* CSS3草案 */-webkit-border-radius: 25px!important;	/* Safari,Google Chrome用 */-moz-border-radius: 25px!important;
-}
-#btn-header{
-    background:#E88C57;padding: 15px 60px 15px 60px!important;border-radius: 30px!important;		/* CSS3草案 */-webkit-border-radius: 30px!important;	/* Safari,Google Chrome用 */-moz-border-radius: 30px!important;
-}
-#btn-header_sp{
-    background:#E88C57;padding: 15px 60px 15px 60px!important;height:80px;margin-top:-65px;border-radius: 0px!important;		/* CSS3草案 */-webkit-border-radius: 0px!important;	/* Safari,Google Chrome用 */-moz-border-radius: 0px!important;
-}
-#btn-header:hover  {
-  opacity: 0.3;
-  filter: alpha(opacity=60);
-}
-.btn_tron{
-    background:#E88C57;padding: 15px 100px 15px 100px!important; border-radius: 55px!important;		/* CSS3草案 */-webkit-border-radius: 55px!important;	/* Safari,Google Chrome用 */-moz-border-radius: 55px!important;
-}
-.btn_tron a{
-    font-size:20px;
-}
-.btn_tron_sp{
-    background:#E88C57;padding: 15px 100px 15px 100px!important; border-radius: 55px!important;		/* CSS3草案 */-webkit-border-radius: 55px!important;	/* Safari,Google Chrome用 */-moz-border-radius: 55px!important;
-}
-.btn_tron_sp a{
-    font-size:20px;
-}
-.btn_tron:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=90);
-}
-#btn_footer{
-    background:#E88C57;padding: 12px 100px 12px 100px;border-radius: 25px;		/* CSS3草案 */-webkit-border-radius: 40px;	/* Safari,Google Chrome用 */-moz-border-radius: 4px;
-}
-#btn_footer a{
-    font-size:40px;
-}
-.btn_card{
-    padding:5px 12px 5px 12px!important; background:#1060D6!important;
-}
-.btn_form{
-     background:#1060D6!important; border:1px solid #1060D6; width:309px!important;
-}
+/*.btn{*/
+/*    border: 1px solid #F8E31C!important;*/
+/*}*/
+/*.btn a{*/
+/*    color:black!important;*/
+/*}*/
+/*#btn-point{*/
+/*    padding: 5px 20px 5px 20px;*/
+/*    background:#1060D6; */
+/*    border: 1px solid #1060D6;*/
+    /*border-radius: 30px!important;-webkit-border-radius: 30px!important;-moz-border-radius: 30px!important; */
+/*}*/
+/*#btn-20{*/
+/*   margin-bottom:20px;*/
+/*   padding: 12px 50px 12px 50px;*/
+/*   background:#E88C57;*/
+/*   border-radius: 25px!important;-webkit-border-radius: 25px!important;	-moz-border-radius: 25px!important;*/
+/*}*/
+/*#btn-header{*/
+/*    padding: 15px 60px 15px 60px!important;*/
+/*    background:#E88C57;*/
+/*    border-radius: 30px!important;-webkit-border-radius: 30px!important;-moz-border-radius: 30px!important;*/
+/*}*/
+/*#btn-header_sp{*/
+/*    height:80px;*/
+/*    margin-top:-65px;*/
+/*    padding: 15px 60px 15px 60px!important;*/
+/*    background:#E88C57;*/
+/*    border-radius: 0px!important;-webkit-border-radius: 0px!important;-moz-border-radius: 0px!important;*/
+/*}*/
+/*#btn-header:hover  {*/
+/*  opacity: 0.3;*/
+/*  filter: alpha(opacity=60);*/
+/*}*/
+/*.btn_tron{*/
+/*    padding: 15px 100px 15px 100px!important;*/
+/*    background:#E88C57;*/
+/*    border-radius: 55px!important;-webkit-border-radius: 55px!important;-moz-border-radius: 55px!important;*/
+/*}*/
+/*.btn_tron a{*/
+/*    font-size:20px;*/
+/*}*/
+/*.btn_tron_sp{*/
+/*    background:#E88C57;padding: 15px 100px 15px 100px!important; border-radius: 55px!important;-webkit-border-radius: 55px!important;-moz-border-radius: 55px!important;*/
+/*}*/
+/*.btn_tron_sp a{*/
+/*    font-size:20px;*/
+/*}*/
+/*.btn_tron:hover {*/
+/*  opacity: 0.9;*/
+/*  filter: alpha(opacity=90);*/
+/*}*/
+/*#btn_footer{*/
+    /*background:#E88C57;padding: 12px 100px 12px 100px;border-radius: 25px;-webkit-border-radius: 40px;-moz-border-radius: 4px;*/
+/*}*/
+/*#btn_footer a{*/
+/*    font-size:40px;*/
+/*}*/
+/*.btn_card{*/
+/*    padding:5px 12px 5px 12px!important; background:#1060D6!important;*/
+/*}*/
+/*.btn_form{*/
+/*     background:#1060D6!important; border:1px solid #1060D6; width:309px!important;*/
+/*}*/
 #white_contain{
-    /* CSS3草案 */-webkit-border-radius: 10px;	/* Safari,Google Chrome用 */-moz-border-radius: 10px;background:white;padding:30px 20px 30px 20px!important; 
+    padding:30px 20px !important; 
+   -webkit-border-radius: 10px;-moz-border-radius: 10px;
+   background:white;
 }
 #white_contain2{
-    /* CSS3草案 */-webkit-border-radius: 10px;	/* Safari,Google Chrome用 */-moz-border-radius: 10px;background:white;padding:20px 20px 20px 20px!important; 
+  padding:20px!important; 
+  -webkit-border-radius: 10px;-moz-border-radius: 10px;
+  background:white;
 }
 .white_contain2_sp{
-    /* CSS3草案 */-webkit-border-radius: 10px;	/* Safari,Google Chrome用 */-moz-border-radius: 10px;background:white;padding:20px 20px 20px 20px!important; width:600px;
+   -webkit-border-radius: 10px;-moz-border-radius: 10px;
+   background:white;
+   padding:20px!important; width:600px;
 }
 .radiousbox1{
-    margin:0 90px 0 90px;padding:50px 4% 50px 4%;border:4px solid white;
+    margin:0 90px 0 90px;
+    padding:50px 4% 50px 4%;
+    border:4px solid white;
 }
 .radiousbox1_sp{
-    margin:0 90px 0 90px;padding:50px 50px 50px 50px;border:8px solid white;
+    margin:0 90px;
+    padding:50px;
+    border:8px solid white;
 }
 .radiousbox2{
-padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30px;	/* Safari,Google Chrome用 */-moz-border-radius: 30px; border:5px solid #F8E31C!important;
+    padding:30px 15px!important;
+    -webkit-border-radius: 30px;-moz-border-radius: 30px; 
+    border:5px solid #F8E31C!important;
 }
 
 /* 画面外にいる状態 */
@@ -250,7 +276,7 @@ padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30p
 	box-shadow: 0px 5px 15px -5px rgba(0, 0, 0, 0.8)!important; /*横方向　下方向　ぼかし　広がり　色 */
 }
 .card{
-    /* CSS3草案 */-webkit-border-radius: 30px!important;	/* Safari,Google Chrome用 */-moz-border-radius: 30px!important;
+  -webkit-border-radius: 30px!important;-moz-border-radius: 30px!important;
 }
 
 /*ボタンのふわっと動作*/
@@ -267,13 +293,10 @@ padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30p
     transform: translateY(-5px);
 }
 .privacy {
-  border:1px solid;
-  padding:20px 0 20px 0;
-  /*width: 463px;*/
   height: 65px;
+  padding:20px 0 20px 0;
+  border:1px solid;
   overflow: scroll;
-  /*background:#37383D;*/
-  /*color:white;*/
 }
 .privacy_link a{
     color:gray!important;
@@ -282,11 +305,6 @@ padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30p
     text-decoration:none;
     color:black;
 }
-
-
-
-
-
 
 /*汎用CSS*/
 .mb-5{
@@ -682,11 +700,11 @@ padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30p
 }
 
 .arrow_box {
-      text−align:canter;
-  margin:0 auto;
-  display: none;
   position: absolute;
+  display: none;
+  margin:0 auto;
   padding: 16px;
+ text−align:canter;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;  
   border-radius: 8px;
@@ -695,14 +713,14 @@ padding:30px 15px 30px 15px!important;/* CSS3草案 */-webkit-border-radius: 30p
 }
 
 .arrow_box:after {
-  text−align:canter;
   margin:0 auto;
   position: absolute;
-  bottom: 100%;
-  left: 80%;
   width: 0;
   height: 0;
+  bottom: 100%;
+  left: 80%;
   margin-left: -10px;
+  text−align:canter;
   border: solid transparent;
   border-color: rgba(51, 51, 51, 0);
   border-bottom-color: #333;
