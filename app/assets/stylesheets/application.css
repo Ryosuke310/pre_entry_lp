@@ -177,7 +177,7 @@ header{
     height:80px;
    -webkit-border-radius: 15px;-moz-border-radius: 15px;
    background:white;
-   padding:15px 20px 20px 20px;
+   line-height:15px;
 }
 .radiousbox1{
     width: 720px;
