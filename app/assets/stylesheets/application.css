@@ -163,6 +163,8 @@ header{
      background:#1060D6!important; border:1px solid #1060D6; width:309px!important;
 }
 #white_contain{
+    width:100%;
+    height:300px;
     padding:30px 20px !important; 
    -webkit-border-radius: 10px;-moz-border-radius: 10px;
    background:white;
