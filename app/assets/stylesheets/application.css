@@ -247,6 +247,27 @@ header{
 }
 
 /*汎用CSS*/
+.w-120{
+    width: 120px!important
+}
+.h-100{
+    height:100px!important;
+}
+.h-390{
+    height: 390px!important
+}
+.h-540{
+    height: 540px!important
+}
+.h-1040{
+    height: 1040px!important
+}
+.h-1160{
+    height: 1160px!important
+}
+.w-card{
+    width:20rem!important;
+}
 .mb-5{
     margin-bottom:5px!important;
 }
@@ -300,6 +321,9 @@ header{
 }
 .mt--40{
     margin-top:-40px!important;
+}
+.mr--45{
+    margin-right: -45px!important
 }
 .mt-50{
     margin-top:50px!important;
@@ -610,6 +634,9 @@ header{
 .line-h-60{
     line-height:60px!important;
 }
+.line-h-80{
+    line-height:80px!important;
+}
 .h-87{
     height:87px!important;
 }
@@ -633,6 +660,15 @@ header{
 }
 .b-footer{
     border-bottom:1px solid white!important;
+}
+.z-2{
+    z-index: 2;
+}
+.z--10{
+    z-index: -10;
+}
+.z-10{
+    z-index: 10;
 }
 
 
@@ -689,4 +725,7 @@ header{
 .card_arrow{
     margin-top: -300px;
     margin-right: -25px;
+}
+.fotter_w_line{
+    border-bottom:1px solid white;
 }
